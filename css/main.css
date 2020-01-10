@@ -26,7 +26,7 @@ header, footer{
     padding: 1.5rem;
     border-radius: 20px;
 }
-header, img{
+header img{
     float: right;
     margin: 5px;
     border-radius: 10px;
