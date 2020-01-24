@@ -12,8 +12,7 @@ header {
     background-color: #103cb6;
     width: 100%;
     
-    /*display: grid;
-    grid-template-columns: 100px 1fr;*/
+   
 }
 
 #logo {
@@ -127,8 +126,8 @@ nav a:hover {
 
 img {
     max-width: 100%;
-    width:"200px";
-     height:"200px";
+    width:200px;
+     height:200px;
 }
 
 footer {
@@ -156,82 +155,3 @@ footer p a:link{
 footer p a:visited{
     text-decoration: underline;
 }
-
-table,
-th,
-td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-th,
-td {
-    padding: 15px;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-}
-/*
-.site-header-sample {
-    color: white;
-    background-color: #3515e9;
-    font-size: 40px;
-    font-family: 'Bevan', sans-serif;
-}
-
-.navigation-sample {
-    color: #264653;
-    background-color: #E9C46A;
-    font-size: 16px;
-}
-
-.footer-sample {
-    color: white;
-    background-color: #264653;
-    font-size: 20pt;
-}
-
-.heading-sample {
-    color: #2A9D8F;
-    font-size: 32pt;
-}
-
-.paragraph-sample {
-    font-size: 16pt;
-}
-
-.rgb {
-    font-size: 16pt;
-    font-family: 'Raleway', sans-serif;
-}
-
-/* nav {
-    max-width: 850px;
-    padding: 1rem;
-    color: #3d1c15;
-    display: grid;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  /*li a:hover {
-    background-color: #111;
-  }
