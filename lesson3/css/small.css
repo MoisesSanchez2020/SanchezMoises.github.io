@@ -11,6 +11,7 @@ footer {
 header {
     background-color: #103cb6;
     width: 100%;
+
     
    
 }
@@ -26,6 +27,7 @@ header {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 150px;
 }
 
 main {
@@ -126,14 +128,15 @@ nav a:hover {
 
 img {
     max-width: 100%;
-    width:200px;
-     height:200px;
 }
 
 footer {
     background-color: #07080c;
     color: white;
     font-family: 'Raleway', sans-serif;
+    height: 50px;
+    
+    
 }
 
 footer a {
