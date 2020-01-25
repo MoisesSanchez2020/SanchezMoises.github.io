@@ -1,7 +1,5 @@
 @media (min-width: 32.5em) {
-    body,
-    main,
-    footer {
+    body,main,footer {
         font-size: 16pt;
     }
     nav ul {
@@ -18,7 +16,5 @@
         display: grid;
         grid-template-columns: 150px 1fr;
     }
-    .icon {
-        align-self: center;
-    }
+   
 }
