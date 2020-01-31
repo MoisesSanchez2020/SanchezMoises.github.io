@@ -15,7 +15,7 @@ body{
 
 header {
      color: #5995ED;
-     background-color: #3D79F1;
+     background-color: rgb(241, 88, 77);
      font-size: 2rem;
      line-height: 2rem;
      font-family: 'Raleway', sans-serif;
@@ -36,13 +36,16 @@ header {
 
  header h1{
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: rgb(248, 245, 34);
+    font-size: 60px;
  }
+
+
 
  
  .logo {
  height: 8rem;
- width: 150px;
+ width: 250px;
  height: 100px;
 
  }
@@ -51,7 +54,8 @@ header {
      font-size: .5em;
      line-height: 2rem;
      font-family: sans-serif;
-    color: white;
+    color: rgb(246, 250, 248);
+  text-align: center;
  }
  
 
@@ -63,7 +67,15 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 
-
+nav{
+    background-color: #aa0000;
+    font-family: sans-serif;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+  
+    
+}
 
 
 nav button{
@@ -76,15 +88,7 @@ nav button{
     
 }
 
-nav{
-    background-color: #aa0000;
-    font-family: sans-serif;
-    text-align:center;
-    margin:0 auto;
-    width:960px;
-    height: 50px;
 
-}
 nav ul{
     list-style-type: none;
     padding: 0;
@@ -94,12 +98,13 @@ nav ul{
 }
 
 nav ul li a{
-display: block;
-
+display: grid;
+font-size: 1rem;
 padding: .8rem 2%;
 text-decoration: none;
 color:rgba(255,255,255,0.8);
 border-top: 1px solid rgba(0,0,0,0.3);
+text-align: center;
 }
 nav ul li .active a{
     background-color: rgba(0,0,0,0.2);color: #fff;
@@ -143,7 +148,7 @@ main{
     max-width: 960px;
     margin:0 auto;
     text-align: center;
-    padding: 100px;
+    padding: 150px;
     background-color: rgb(243, 244, 250);
 }
 .boxholder{
@@ -178,7 +183,7 @@ div {
 /*--------FOOTER----*/
 
 footer{
-    background-color: #3D79F1 ;
+    background-color:rgb(241, 88, 77) ;
     
     width: 960px;
     height: 100px;
