@@ -9,13 +9,13 @@
         display: block;
     }
     nav ul{
-        margin-left: 2%;
+        margin-left: 10%;
     }
     nav ul li {
       float: left;
       display:block;
      text-align:center;
-      width:150px; /* fixed width */
+      width:200px; /* fixed width */
       text-decoration:none; 
 
   }
