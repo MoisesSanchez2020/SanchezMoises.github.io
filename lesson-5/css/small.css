@@ -88,7 +88,7 @@ nav, .menu {
 
 
 .title-header {
-  color:  rgb(250, 217, 31);
+  color: yellow;
   font-size: 200%;
   
 }
@@ -96,7 +96,7 @@ nav, .menu {
 .motto {
   font-style: oblique;
   font-weight: 700;
-  color:  rgb(233, 227, 227);
+  color:  white;
   font-size: 140%;
  
 }
@@ -213,7 +213,7 @@ nav, .menu {
 }
 
 .forecast table td {
-  padding: .5em;
+  padding: .8em;
   font-size: 115%;
   background-color: rgb(11, 71, 150);
   border: 2px solid #0a0909;
@@ -223,7 +223,7 @@ nav, .menu {
 
 article {
   position: relative;
-  background-color:rgb(247, 241, 191);
+  background-color:rgb(236, 228, 148);
   margin: 2em 0 8vw 0;
   padding: .6em;
 
