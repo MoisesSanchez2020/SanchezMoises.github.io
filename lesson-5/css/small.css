@@ -16,11 +16,9 @@ header, footer{
   background-color: rgb(236, 97, 97);
 }
 
-footer {
-  box-shadow: -13px 4px 24px 7px rgba(77, 74, 74, 0.69);
-}
 
-/*------- Header part1 -------*/
+
+
 
 .logo, .header-title-text {
   display: inline-block;
@@ -35,13 +33,12 @@ footer {
   margin-left: 20px;
 }
 
-/*------- Header part 2 -------*/
+
 
 nav, .menu {
   background:rgb(241, 56, 56);
   list-style: none;
   text-align: center;
-  box-shadow: 5px 10px 18px #777373;
   padding: 0;
 }
 
@@ -56,7 +53,7 @@ nav, .menu {
   padding: .5rem;
 }
 
-/*-- Header: Hamburger Menu --*/
+
 
 .menu li:first-child {
   display: block;
@@ -70,7 +67,6 @@ nav, .menu {
   display: block;
 }
 
-/*------- active text and link styling -------*/
 
 .menu a.active {
   background-color: rgb(236, 97, 97);
@@ -84,17 +80,17 @@ nav, .menu {
   color: white;
 }
 
-/*------- Responsive Images -------*/
 
 
 
 
 
-/*------- Font-Styling -------*/
+
+
 .title-header {
   color:  rgb(250, 217, 31);
   font-size: 200%;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(7, 7, 7, 0.3);
+  
 }
 
 .motto {
@@ -102,19 +98,19 @@ nav, .menu {
   font-weight: 700;
   color:  rgb(233, 227, 227);
   font-size: 140%;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+ 
 }
 
 .menu a {
   font-size: 130%;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+  
 }
 
 #title-town, .article-title {
   font-size: 175%;
   margin: 1.2em 0 .7em 0;
   font-weight: bold;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+  
 }
 
 .img-overlay {
@@ -125,7 +121,7 @@ nav, .menu {
  .container-section h2 {
   font-size: 150%;
   text-align: center;
-  text-shadow: 3px 3px 2px #0a0909;
+ 
 }
 
  h3 {
@@ -134,7 +130,7 @@ nav, .menu {
 }
 
 .contact address pre {
-  font-size: 130%;
+  font-size: 100%;
   text-align: left;
 }
 
@@ -142,16 +138,16 @@ nav, .menu {
   font-size: 80%;
 }
 
-/*-------BANNER-------*/
+
 
 .banner-GRANDE img {
   width: 100%;
   height: auto;
-  box-shadow: 5px 10px 18px #888888;
+ 
   border-radius: 5px 5px 5px 5px;
 }
 
-/*------- Weather Summary -------*/
+
 
 .container-banner {
   position: relative;
@@ -189,14 +185,14 @@ nav, .menu {
   color: inherit;
 }
 
-/*------- SECTION#1 -------*/
+
 
 .container-numero {
   display: none;
   background-color: rgb(215, 215, 233);
   margin: 2em 0 .7em 0;
   padding: .6em;
-  /*box-shadow: 5px 10px 18px #0a0909;*/
+  
   border-radius: 5px 5px 5px 5px;
   color: rgb(218, 98, 61);
   align-content: center;
@@ -206,7 +202,7 @@ nav, .menu {
   margin: .5em auto;
   padding-top: .5em;
   background-color: #fff;
-  box-shadow: 5px 10px 18px #0a0909;
+ 
   border-radius: 5px 5px 5px 5px;
 
 }
@@ -223,14 +219,14 @@ nav, .menu {
   border: 2px solid #0a0909;
 }
 
-/*------- SECTION#2 -------*/
+
 
 article {
   position: relative;
   background-color:rgb(247, 241, 191);
   margin: 2em 0 8vw 0;
   padding: .6em;
-  box-shadow: 5px 10px 18px #0a0909;
+
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -263,7 +259,7 @@ article p.article-body {
 
 
 
-/*------- Footer-Contact -------*/
+
 
 .container-abajo {
   margin: 5em 0 1.7em 0;
@@ -281,13 +277,13 @@ article p.article-body {
   width: 42.5%;
   height: auto;
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 10px 18px 5px #0a0909;
+ 
 }
 
 
 
 
-/*----- Clearfix: Force an Element not to collapse -----*/
+/*----- Clearfix:  -----*/
 .clearfix:after {
   content: "";
   display: table;
