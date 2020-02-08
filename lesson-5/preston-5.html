@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>My waether Project| America Weather Storm| by Moises Sanchez </title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium">
+  <link rel="stylesheet" href="css/large.css" />
+</head>
+
+<body>
+  <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+
+  <!--HEADER-->
+  <header>
+    <img src="images/weather-icon-png-2.png" alt="logo" class="logo">
+    <div class="header-title-text">
+      <h1 class="title-header">America Weather Storm</h1>
+      <div class="motto">Keeping America Update It
+      </div>
+    </div>
+    <div class="header-object"></div>
+
+   <!--NAVIGATION HERE-->
+    <nav>
+      <ul class="menu">
+        <li><a href="#" onclick="toggleMenu()">&#9776;&nbsp;Menu</a></li>
+        <li><a href="#" >Home</a></li>
+        <li><a href="#"  >Preston</a></li>
+        <li><a href="#" >Soda Springs</a></li>
+        <li><a href="#" >Fish Haven</a></li>
+        <li><a href="#" >Storm Center</a></li>
+        <li><a href="#" >Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!--MAIN CONTENT-->
+  <main>
+    <section class="container-banner">
+      <div  id="title-town"> <h1>Preston, ID</h1>  </div>
+      <div class="banner-GRANDE">
+        <img src="images/storm-4.jpg" alt="photo of storm"> 
+      </div>
+      <div class="img-overlay">
+        <form action="#">
+          <h3 class="preference">Weather Today</h3>
+          <label for="current-conditions">Currently:</label>
+          <input type="text" id="current-conditions"><br>
+          <label for="temp">Temperature:</label>
+          <input type="text" id="temp" value="30&#8457;"><br>
+          <label for="humidity">Humidity:</label>
+          <input type="text" id="humidity" value="100&#37;"><br>
+
+          <label for="precipitation">Precipitation:</label>
+          <input type="text" id="precipitation" name="precipitation" value="20 inches"><br>
+
+          <label for="wind-speed">Wind Speed:</label>
+          <input type="text" id="wind-speed" name="wind-speed" value="50 mph"><br>
+        </form>
+      </div>
+    </section>
+
+<!--SECTION#1-->
+    <section class="container-numero">
+      <h2>5-Day Forecast</h2>
+      <div class="forecast">
+        <table>
+          <tr>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+          </tr>
+          <tr>
+            <td>70&#8457;</td>
+            <td>65&#8457;</td>
+            <td>45&#8457;</td>
+            <td>30&#8457;</td>
+            <td>80&#8457;</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+<!--SECTION#2-->
+    <article class="clearfix">
+      <h2 class="article-title">4 children found alive in remote part of Alaska after being stranded by blizzard for 27 hours</h2>
+      <h3 class="article-sub">By Lauren Fox, AccuWeather staff writer </h3>
+      <p class="article-body">Both the Preston School District and West Side School District will be closed tomorrow,
+        Feb. 14, due to the weather and the amount of snow that has fallen today. 
+        At least eight inches of heavy wet
+        snow has fallen on the valley floor. 
+        Much more has fallen in the higher elevations. Find the rest of the storyAlaska State Troopers have identified the children as 14-year-old Christopher Johnson, 8-year-old Frank Johnson, 
+        7-year-old Ethan Camille, and 2-year-old Trey Camille. KTUU-TV reported that when the children were found they were “cold, hungry and tired.”
+        
+      </p>
+      
+      <img class="pics" src="images/city-1.jpg"  alt="Storm day">
+    </article> 
+  </main>
+
+
+  <!--FOOTER-->
+  <footer>
+    <div class="container-abajo clearfix">
+      <div class="contact">
+        <address>
+          <pre>
+          America Weather Storm Corp
+          903 Ocean view 
+          San Mateo Idaho
+          645-049-0978
+          americaweatherstorm@gunit.com
+          </pre>
+        </address>
+      </div>
+         
+
+      
+      <img id="map" src="images/mapa.png" alt="map of Idaho">
+      
+    </div>
+    <p id="footend-copy">&copy; America Weather Storm | Moises R. Sanchez | <a href="https://www.byui.edu" 
+        rel="help">BYU-Idaho</a> | <span id="upDate"></span> 
+  </footer>
+  <script src="js/time.js"></script>
+  <script src="js/hamburger.js"></script>
+</body>
+
+</html>

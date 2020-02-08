@@ -20,7 +20,7 @@ footer {
   box-shadow: -13px 4px 24px 7px rgba(77, 74, 74, 0.69);
 }
 
-/*------- Header: Title and Logo -------*/
+/*------- Header part1 -------*/
 
 .logo, .header-title-text {
   display: inline-block;
@@ -35,7 +35,7 @@ footer {
   margin-left: 20px;
 }
 
-/*------- Header: Navigation -------*/
+/*------- Header part 2 -------*/
 
 nav, .menu {
   background:rgb(241, 56, 56);
@@ -90,11 +90,11 @@ nav, .menu {
 
 
 
-/*------- Font Adjustments, Styling -------*/
+/*------- Font-Styling -------*/
 .title-header {
   color:  rgb(250, 217, 31);
   font-size: 200%;
-  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(7, 7, 7, 0.3);
 }
 
 .motto {
@@ -142,9 +142,9 @@ nav, .menu {
   font-size: 80%;
 }
 
-/*-------BANNER -------*/
+/*-------BANNER-------*/
 
-.hero-banner img {
+.banner-GRANDE img {
   width: 100%;
   height: auto;
   box-shadow: 5px 10px 18px #888888;
@@ -153,7 +153,7 @@ nav, .menu {
 
 /*------- Weather Summary -------*/
 
-.container-hero {
+.container-banner {
   position: relative;
  }
 
@@ -163,7 +163,7 @@ nav, .menu {
   left: 1.5vw;
   margin: 0 auto;
   padding: .75em;
-  background-color: rgba(13, 78, 53, 0.6);
+  background-color: rgba(235, 43, 10, 0.6);
 
 }
 
@@ -189,9 +189,9 @@ nav, .menu {
   color: inherit;
 }
 
-/*------- Forecast -------*/
+/*------- SECTION#1 -------*/
 
-.container-section {
+.container-numero {
   display: none;
   background-color: rgb(233, 189, 43);
   margin: 2em 0 .7em 0;
@@ -223,7 +223,7 @@ nav, .menu {
   border: 2px solid #0a0909;
 }
 
-/*------- Article -------*/
+/*------- SECTION#2 -------*/
 
 article {
   position: relative;
@@ -283,6 +283,9 @@ article p.article-body {
   border-radius: 15px 15px 15px 15px;
   box-shadow: 0px 10px 18px 5px #0a0909;
 }
+
+
+
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
