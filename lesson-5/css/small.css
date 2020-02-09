@@ -106,7 +106,7 @@ nav, .menu {
   
 }
 
-#title-town, .article-title {
+#title-town, .article-1 {
   font-size: 175%;
   margin: 1.2em 0 .7em 0;
   font-weight: bold;
@@ -230,18 +230,18 @@ article {
   border-radius: 5px 5px 5px 5px;
 }
 
-.article-title {
+.article-1 {
   text-align: left;
   margin: 0;
 }
 
-.article-sub {
+.article-2 {
   text-align: left;
   margin-left: .8em;
   margin-top: .25em;
 }
 
-article p.article-body {
+article p.article-3 {
   float: left;
   text-align: left;
   margin: 0 auto;
@@ -258,7 +258,7 @@ article p.article-body {
 
 
 
-
+/*FOOTER*/
 
 
 .container-abajo {
