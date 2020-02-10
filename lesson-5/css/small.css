@@ -87,14 +87,14 @@ nav, .menu {
 
 
 
-.title-header {
+#title-header {
   color: yellow;
   font-size: 200%;
   
 }
 
-.motto {
-  font-style: oblique;
+#motto {
+  font-style: normal;
   font-weight: 700;
   color:  white;
   font-size: 140%;
@@ -223,7 +223,7 @@ nav, .menu {
 
 article {
   position: relative;
-  background-color:rgb(236, 228, 148);
+  background-color:rgb(235, 235, 235);
   margin: 2em 0 8vw 0;
   padding: .6em;
 
