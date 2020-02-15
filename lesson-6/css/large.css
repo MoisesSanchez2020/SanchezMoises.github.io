@@ -17,6 +17,11 @@
   font-size: 35px;
  
 }
+
+#title-town h2{
+  font-size: 38px;
+}
+
          
      
     .menu li:first-child {
@@ -43,7 +48,10 @@
     max-width: 40%;
   
   }
-  
+  .contact address pre {
+    font-size: 30px;
+    text-align: left;
+  }
 
 
 

@@ -139,7 +139,9 @@ nav, .menu {
   font-size: 20px;
 }
 
-
+#title-town h2{
+  font-size: 18px;
+}
 
 .banner-GRANDE img {
   width: 100%;
