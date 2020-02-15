@@ -152,8 +152,9 @@ nav, .menu {
 
 
 
-.container-banner {
+.weatherSummary {
   position: relative;
+  
  }
 
 .img-overlay form {
@@ -221,6 +222,30 @@ nav, .menu {
   background-color: rgb(11, 71, 150);
   border: 2px solid #0a0909;
 }
+
+.weatherbox {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color:rgb(241, 56, 56);
+  padding: .7rem;
+  font-size: .9rem;
+  box-shadow: 0 0 30px #111;
+  opacity: .8;
+}
+
+.weatherSummaryGrid {
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  grid-column-gap: 25px;
+}
+
+.weatherbox p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3rem;
+}
+
 
 
 

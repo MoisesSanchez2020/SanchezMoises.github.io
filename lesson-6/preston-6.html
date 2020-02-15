@@ -42,25 +42,20 @@
 
 <!--MAIN CONTENT-->
   <main>
-    <section class="container-banner">
+    <section class="weatherSummary">
       <div  id="title-town"> <h2>Preston, ID</h2>  </div>
       <div class="banner-GRANDE">
         <img src="images/cit230.jpeg"  alt="Hero Image" sizes="50vw" srcset="images/cit230.jpeg 350w,images/small.png 500w,images/large.png 900w ">
       </div>
 
 
-     <!--- <figure class="heroImage">
-        <img src="images/cit230_image_franklinOriginal.jpg" alt="Hero Image" sizes="50vw" srcset="images/cit230_image_franklinsmall.jpg 350w,
-        images/cit230_image_franklinmedium.jpg 500w,
-        images/cit230_image_franklinlarge.jpg 900w           
-        ">
-    </figure>-->
+ 
 
 
 
 
 
-      <div class="img-overlay">
+     <!--- <div class="img-overlay">
         <form action="#">
           <h3 class="preference">Weather Today</h3>
           <label for="current-conditions">Currently:</label>
@@ -76,8 +71,26 @@
           <label for="wind-speed">Wind Speed:</label>
           <input type="text" id="wind-speed" name="wind-speed" value="50 mph"><br>
         </form>
+      </div>-->
+   
+
+    <div class="weatherbox">
+      <h3>Weather Today</h3>
+      <div class="weatherSummaryGrid">
+          <p class="summaryp">Currently:</p>
+          <p class="currentweather">Rainy</p>
+          <p class="summaryp">High:</p>
+          <p class="high">30&#xb0;</p>
+          <p class="summaryp">Wind Chill:</p>
+          <p class="windchill" id="displayWind">31&#xb0;F</p>
+          <p class="summaryp">Humidity: </p>
+          <p class="humidity">30%</p>
+          <p class="summaryp">Wind Speed: </p>
+          <p class="windspeed"><span id="windSp">49</span> mph</p>
       </div>
-    </section>
+  </div>
+</section>
+
 
 <!--SECTION#1-->
     <section class="container-numero">
@@ -94,6 +107,7 @@
           </tr>
           <tr>
             <td>10&#8457;</td>
+            <span class="temperature" id="temp">35&#xb0;F</span>
             <td>70&#8457;</td>
             <td>65&#8457;</td>
             <td>45&#8457;</td>
@@ -154,6 +168,7 @@
   <script src="js/time.js"></script>
   <script src="js/fridaynightlive.js"></script>
   <script src="js/hamburger.js"></script>
+  <script src="js/windchill.js"></script>
 </body>
 
 </html>

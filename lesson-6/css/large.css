@@ -74,6 +74,39 @@ article p.article-3 {
   
 }
 
+.weatherSummary {
+  position: relative;
+  
+ }
+
+.weatherbox{
+  position: absolute;
+  top: 8vw;
+  left: 1.5vw;
+  margin: 0 auto;
+  padding: .75em;
+  background-color: rgb(236, 97, 97);
+
+}
+
+.img-overlay h3 {
+  margin: 0 0 .8em auto;
+  border-bottom: 1px solid #fff;
+}
+
+.weatherbox {
+  float: left;
+  width: 12em;
+  margin-right: .8em;
+  padding-bottom: .5em;
+  text-align: left;
+}
+.weatherbox p {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3rem;
+  font-size: 20px;
+}
 
 
 }
