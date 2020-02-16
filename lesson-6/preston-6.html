@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My waether Project| America Weather Storm| by Moises Sanchez </title>
-  <link rel="icon" href="images/favicon.ico" type="" />
+  <title> America Weather Storm </title>
+  <link rel="icon" href="images/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
   <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
@@ -45,13 +45,18 @@
     <section class="weatherSummary">
       <div  id="title-town"> <h2>Preston, ID</h2>  </div>
       <div class="banner-GRANDE">
-        <img src="images/cit230.jpeg"  alt="Hero Image" sizes="50vw" srcset="images/cit230.jpeg 350w,images/small.png 500w,images/large.png 900w ">
+        <picture class="heroimage">
+          <source media="(min-width: 900px)" srcset="images/hero-large.png">
+          <source media="(min-width: 600px)" srcset="images/hero-medium.png">
+          <img src="images/hero-small.png" alt="America Weather Image" >
+        </picture>
+       
+
       </div>
 
-
- 
-
-
+      
+      
+     
 
 
 
@@ -97,7 +102,7 @@
       <h2>6-Day Forecast</h2>
       <div class="forecast">
         <table>
-          <tr>
+          <tr id="temp">
             <th>Mon</th>
             <th>Tue</th>
             <th>Wed</th>
@@ -107,7 +112,7 @@
           </tr>
           <tr>
             <td>10&#8457;</td>
-            <span class="temperature" id="temp">35&#xb0;F</span>
+            <td>35&#xb0;F</td>
             <td>70&#8457;</td>
             <td>65&#8457;</td>
             <td>45&#8457;</td>

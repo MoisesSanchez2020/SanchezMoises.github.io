@@ -17,7 +17,9 @@ header, footer{
   background-color: rgb(236, 97, 97);
 }
 
-
+.heroimage img {
+  width: 100%;
+}
 
 
 
