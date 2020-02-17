@@ -71,12 +71,12 @@ nav, .menu {
 }
 
 
-.menu a.active {
-  background-color: rgb(236, 97, 97);
+.menu a#active {
+  background-color: rgb(77, 4, 4);
 }
 
 .menu a:hover {
-  background: rgb(231, 48, 48);
+  background: rgb(77, 4, 4);
 }
 
 #footend-copy a:link, #footend-copy a:visited {
