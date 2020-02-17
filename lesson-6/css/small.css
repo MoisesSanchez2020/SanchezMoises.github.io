@@ -211,7 +211,7 @@ nav, .menu {
 .forecast table {
   margin: .5em auto;
   padding-top: .5em;
-  background-color: #fff;
+  background-color: rgb(209, 206, 206);
  
   border-radius: 5px 5px 5px 5px;
 
@@ -231,8 +231,8 @@ nav, .menu {
 
 .weatherbox {
   position: absolute;
-  top: 25px;
-  left: 25px;
+  top: 35px;
+  left: 35px;
   background-color:rgb(241, 56, 56);
   padding: .7rem;
   font-size: .9rem;
@@ -282,7 +282,7 @@ article p.article-3 {
   padding-left: 1vw;
   width: 100%;
   height:auto;
-  
+  line-height: 1.8;
 }
 .pics{
   width: 100%;
