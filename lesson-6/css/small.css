@@ -45,6 +45,8 @@ nav, .menu {
   padding: 0;
 }
 
+
+
 .menu a, #footend-copy {
   display: block;
   color: white;
@@ -60,6 +62,8 @@ nav, .menu {
 
 .menu li:first-child {
   display: block;
+  
+  
 }
 
 .menu li {
@@ -195,7 +199,7 @@ nav, .menu {
 
 .container-numero {
   display: none;
-  background-color: rgb(215, 215, 233);
+  background-color: rgb(247, 247, 247);
   margin: 2em 0 .7em 0;
   padding: .6em;
   
@@ -214,7 +218,7 @@ nav, .menu {
 }
 
 .forecast table th {
-  font-size: 10px;
+  font-size: 18px;
   color: rgb(247, 93, 4);
 }
 
