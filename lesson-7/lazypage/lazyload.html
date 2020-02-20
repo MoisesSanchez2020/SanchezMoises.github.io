@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Lazy loading</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/lazyload.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>W07 Progressive loading of Images</h1>
+        <picture>
+            <img src="images/gallery-1.png" data-src="images/gallery-1.png" alt="Storm in the Horizon">
+        </picture>
+        <picture>
+            <img src="images/gallery-2.png" data-src="images/gallery-2.png" alt="thunder storm in the Californisa">
+        </picture>
+        <picture>
+            <img src="images/gallery-3.png" data-src="images/gallery-3.png" alt="Hurricane eye in Miami">
+        </picture>
+        <picture>
+            <img src="images/gallery-4.png" data-src="images/gallery-4.png" alt="Chicago winter Storm">
+        </picture>
+        <picture>
+            <img src="images/gallery-5.png" data-src="images/gallery-5.png" alt="Lake tahoe Spring night">
+        </picture>
+        <picture>
+            <img src="images/gallery-6.png" data-src="images/gallery-6.png" alt="Alask winter storm in june">
+        </main>
+</body>
+<script src ="js/lazy.js" defer></script>
+</html>

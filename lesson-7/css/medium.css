@@ -1,0 +1,22 @@
+@media only screen and (min-width: 600px){
+    ul#menu{
+        display: flex;
+        flex: 1 1 100%;
+    }
+}
+.container {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.norm {
+    border-radius: 0px;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+figcaption {
+    font-size: large;
+}
