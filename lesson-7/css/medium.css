@@ -12,12 +12,14 @@
     }
     
     
-    figcaption {
-        font-size: large;
-    }
+   
     picture img {
         width: 100%;
         transition: filter 0.85s;
+      }
+      figure {
+ 
+        font-size: 25px;
       }
 
 

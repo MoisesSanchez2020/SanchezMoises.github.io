@@ -110,22 +110,29 @@ article p.article-3 {
   line-height: 1.3rem;
   font-size: 20px;
 }
-figcaption {
-  font-size: smaller;
-}
+
 
 /* hover effect */
+
+
 .container-gallery {
   max-width: 1000px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+ #header-gallery h2{
+  font-size: 30px;
+ 
+
+}
   
 figure {
-  font-size: 0.95em;
+  
+    font-size: 30px;
+
 }
 
 figure:hover {
-  box-shadow: 0 0 5px rgb(136, 135, 135);
+  box-shadow: 0 0 30px rgb(46, 45, 45);
   border-radius: 0px;
 }
 

@@ -333,15 +333,23 @@ article, .article-3{
 
 
 /* second code*/
+
+
 main, #header{
   text-align: center;
   font-family: 'Squada One', Arial, Helvetica, sans-serif ;
   font-size: 0.95em;
   
 }
+h2, #header-gallery{
+  font-size: 20px;
+ 
+
+}
 
 figure {
-  font-size: 0.55em;
+ 
+  font-size: 20px;
 }
 
 .container-gallery {
