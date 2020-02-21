@@ -115,10 +115,20 @@ figcaption {
 }
 
 /* hover effect */
-.norm:hover {
-  box-shadow: 0 0 50px #333;
+.container-gallery {
+  max-width: 1560px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+  
+figure {
+  font-size: 0.95em;
+}
+
+figure:hover {
+  box-shadow: 0 0 5px rgb(136, 135, 135);
   border-radius: 0px;
 }
+
 
 
 }

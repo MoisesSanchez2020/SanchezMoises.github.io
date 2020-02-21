@@ -7,6 +7,7 @@
   <link rel="icon" href="images/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
   <link href="https://fonts.googleapis.com/css?family=Domine&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css" />
   <link rel="stylesheet" href="css/medium.css">
@@ -14,7 +15,7 @@
 </head>
 
 <body>
-  <aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>
+  <!--<aside>Saturday = Preston Pancakes in the Park!<br>9:00 a.m. Saturday at the city park pavilion.</aside>-->
 
   <!--HEADER-->
   <header>
@@ -31,90 +32,83 @@
       <ul class="menu">
         <li><a href="#" onclick="toggleMenu()">&#9776;&nbsp;Menu</a></li>
         <li><a href="preston-7.html" >Home</a></li>
-        <li><a id="active" href="#">Preston</a></li>
+        <li><a  href="#">Preston</a></li>
         <li><a href="#" >Soda Springs</a></li>
         <li><a href="#" >Fish Haven</a></li>
         <li><a href="#" >Storm Center</a></li>
-        <li><a href="#" >Gallery</a></li>
+        <li><a id="active" href="#" >Gallery</a></li>
       </ul>
     </nav>
   </header>
 <main>
-  <h2>Weather Gallery</h2>
-  <div class="container">
+  <h1 id="header">Progressive loading Gallery</h1>
+  <div class="container-gallery">
+
     <figure>
-      <img
-        class="norm"
-        src="images/gallery-1.png"
-        data-src="images/gallery-1.png"  
-        alt="Thunderstorm with dark clouds"
-      />
+      <picture>
+      <img src="images/gallery-1.png" data-src="images/gallery-1.png" alt="Thunderstorm in winter"/>
+    </picture>
       <figcaption>Thunderstorm in Pocatello</figcaption>
     </figure>
+
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-2.png"
-        data-src="images/gallery-2.png"
-        alt="Water drops"
-      />
-      <figcaption>FallS dawn in Calabasas</figcaption>
+      <picture>
+      <img src="images/image-placeholder.jpg" data-src="images/gallery-2.png" alt="calabasas california"/>
+      </picture>
+    <figcaption>Falls in Calabasas</figcaption>
     </figure>
+
+
+
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-3.png"
-        data-src="images/gallery-3.png"
-        alt="Mountains under blue and white sky"
-      />
-      <figcaption>Hurracane Alert in Miami</figcaption>
+      <picture>
+      <img src="images/image-placeholder.jpg" data-src="images/gallery-3.png" alt="Hurracane photo in the pacific"/>
+      </picture>
+    <figcaption>Hurracane Alert in Miami</figcaption>
     </figure>
+
+
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-4.png"
-        data-src="images/gallery-4.png"
-        alt="Low angle photo of snow field"
-      />
-      <figcaption>Heavy storn in Salt Lake City</figcaption>
+      <picture>
+      <img src="images/image-placeholder.jpg" data-src="images/gallery-4.png" alt="winter storn in Utah"/>
+      </picture>
+    <figcaption>Heavy storn in Salt Lake City</figcaption>
     </figure>
+
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-5.png"
-        data-src="images/gallery-5.png"
-        alt="Clouds and forest trees"
-      />
-      <figcaption>Fall in Lake Tahoe</figcaption>
+      <picture>
+      <img src="images/image-placeholder.jpg" data-src="images/gallery-5.png" alt="Lake Tahoe panorama"/>
+      </picture>
+    <figcaption>Fall in Lake Tahoe</figcaption>
     </figure>
+
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-6.png"
-        data-src="images/gallery-6.png"
-        alt="Huge wave at daytime"
-      />
+      <picture>
+      <img src="images/image-placeholder.jpg"data-src="images/gallery-6.png"alt="Huge wave at daytime"/>
+    </picture>
       <figcaption>Winter Storm in Chicago</figcaption>
     </figure>
+
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-7.png"
-        data-src="images/gallery-7.png"
-        alt="Mountains and trees"
-      />
-      
+      <picture>
+      <img src="images/image-placeholder.jpg"data-src="images/gallery-7.png"alt="Winter storm in Januarys"/>
+    </picture>
       <figcaption>Snow in January</figcaption>
     </figure>
     <figure>
-      <img
-      class="norm"
-        src="images/gallery-8.png"
-        data-src="images/gallery-8.png"
-        alt="Brown mountain"
-      />
+      <picture>
+      <img src="images/image-placeholder.jpg"data-src="images/gallery-7.png"alt="Winter storm in Januarys"/>
+    </picture>
+      <figcaption>Snow in January</figcaption>
+    </figure>
+
+    <figure>
+      <picture>
+      <img src="images/image-placeholder.jpg"data-src="images/gallery-8.png"alt="Brown mountain"/>
+    </picture>
       <figcaption>Spring in the Hills</figcaption>
     </figure>
+
   </div>
 </main>
 
@@ -134,9 +128,9 @@
         rel="help">BYU-Idaho</a> | <span id="upDate"></span> 
   </footer>
   <script src="js/time.js"></script>
-  <script src="js/fridaynightlive.js"></script>
+  <!--<script src="js/fridaynightlive.js"></script>-->
   <script src="js/hamburger.js"></script>
-  <script src="js/windchill.js"></script>
+  <!--<script src="js/windchill.js"></script>-->
   <script src="js/images.js"></script>
 </body>
 
