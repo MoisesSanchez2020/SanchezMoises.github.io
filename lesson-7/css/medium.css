@@ -3,15 +3,25 @@
         display: flex;
         flex: 1 1 100%;
     }
-}
-.container-gallery{
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    min-width: 700px
+
+    .container-gallery{
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+       
+    }
+    
+    
+    figcaption {
+        font-size: large;
+    }
+    picture img {
+        width: 100%;
+        transition: filter 0.85s;
+      }
+
+
+
 }
 
 
-figcaption {
-    font-size: large;
-}

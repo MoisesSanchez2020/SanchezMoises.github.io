@@ -116,7 +116,7 @@ figcaption {
 
 /* hover effect */
 .container-gallery {
-  max-width: 1560px;
+  max-width: 1000px;
   grid-template-columns: 1fr 1fr 1fr;
 }
   
