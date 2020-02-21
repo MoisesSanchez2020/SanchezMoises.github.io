@@ -132,7 +132,7 @@ figure {
 }
 
 figure:hover {
-  box-shadow: 0 0 30px rgb(46, 45, 45);
+  box-shadow: 0 0 40px rgb(46, 45, 45);
   border-radius: 0px;
 }
 
