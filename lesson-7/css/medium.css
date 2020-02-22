@@ -10,6 +10,10 @@
         grid-template-columns: 1fr 1fr ;
        
     }
+    .container-numero{
+      display: grid;
+    }
+
     
     
    
@@ -21,6 +25,12 @@
  
         font-size: 25px;
       }
+      .container-abajo clearfix{
+        display: grid;
+          }
+             
+        
+    
 
 
 
