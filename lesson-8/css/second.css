@@ -1,5 +1,4 @@
-
-  /*------- Hero Container and Image -------*/
+/*------- Hero Container and Image -------*/
 
   
 
@@ -82,40 +81,25 @@
     max-width: 20rem;
   }
   
-  .label-top input:required:invalid {
-    border-left: #9c1f03 solid 6px;
+  /*.label-top input:required:invalid {
+    border-left: #e4e0df solid 6px;
   
-  }
+  }*/
   
   .label-top input:required:valid {
-    border-left: green solid 6px;
+    border-left: black 6px;
   }
   
   .storm .label-top input:hover, .storm .label-top select:hover , .storm textarea:hover, .storm input.submitBtn:hover, .radio.storm:hover {
     background-color: rgb(235, 168, 168);
-    color: #fff;
+    color: black;
     cursor: auto;
   }
   
   .storm .slider:hover {
     cursor: grab;
   }
-  /*:root {
-    --min-screen: 320px;
-    --max-screen: 1280px;
-    --min-font-base: 16px;
-    --max-font-base: 18px;
-    --min-font-h1: --max-font-h --min-font: 16px;
-    --max-font: 18px;
-    --font-calc: calc(var(--min-font) + (var(--max-font) - var(--min-font)) * (100vw - var(--min-screen))/(var(--max-screen)-var(--min-screen)));
-    --bk-color-light: rgb(248, 227, 42);
-    --bk-color-dk: rgb(56, 112, 185);
-    --bk-color-accent-dk: rgb(238, 113, 109);
-    --box-shadow-light: 5px 10px 18px #888888;
-    --box-shadow-dk: 5px 10px 18px #0a0909;
-    --box-shadow-dk-left: -13px 4px 24px 7px rgba(0,0,0,0.69);
-    --text-shadow: 0px 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
-}*/
+  
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -128,7 +112,7 @@ div {
 * html, body, header, footer, main, h1, h2, nav, section, article {
     margin: 0;
     padding: 0;
-    font-family: 'Lato','Roboto', sans-serif;
+    font-family: 'Domine', serif;
 }
   
   
