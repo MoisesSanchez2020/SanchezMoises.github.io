@@ -78,12 +78,12 @@
                 </legend>
                 <label for="date" class="label-top">
                     Date of Storm*
-                    <input required type="date" name="date" id="date" placeholder="" title="Please select the date of storm event"
-                        autocomplete="date" />
+                    <input required type="text" name="input" id="date" placeholder="text" title="Please select the date of storm event"
+                        autocomplete="on" />
                 </label>
                 <label for="storm-type" class="label-top" title="Type your response into the field. ">
                     What are you reporting?
-                    <input required type="list" list="storm-choices" name="storm-type" id="storm-type" title="Type your response into the field."
+                    <input required type="text" list="storm-choices" name="storm-type" id="storm-type" title="Type your response into the field."
                         placeholder="double-click for suggestions..." />
                     <datalist id="storm-choices">
                         <option value="Blizzard"></option>
@@ -149,7 +149,7 @@
                 <legend>Additional Details <em>(optional)</em></legend>
                 <div>
                     <label class="label-top" for="textarea">
-                        <textarea type="textarea" id="textarea" placeholder="Enter any additional details in this area..."
+                        <textarea name="data" id="textarea" placeholder="Enter any additional details in this area..."
                             rows="4" cols="50"></textarea>
                     </label>
                 </div>

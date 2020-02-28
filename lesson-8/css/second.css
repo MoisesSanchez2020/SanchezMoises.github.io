@@ -27,18 +27,19 @@
   .storm ::placeholder, .storm :-ms-input-placeholder,
   .storm ::-ms-input-placeholder, .storm :-ms-textarea-placeholder,
   .storm ::-ms-textarea-placeholder  {
-    color: var(--bk-color-accent-dk);
+    color: blue;
     /* Firefox */
   }
   
   .storm h1 {
-    color: var(--bk-color-accent-dk);
+    color:black;
+    font-size: 30px;
     margin-left: 20px;
   }
   
   .storm fieldset {
     margin: 2rem 0;
-    border: solid 2px var(--bk-color-light);
+    border: solid 2px yellow;
     border-radius: 10px;
     padding: .5rem 2%;
   }
@@ -62,17 +63,18 @@
     padding: .75rem;
     width: 100%;
     max-width: 20rem;
-    background-color: var(--bk-color-light);
+    background-color:yellow
   }
   
   .storm .label-top select option {
-    color: var(--bk-color-accent-dk);
+    color:black;
   }
   
    .storm input.submitBtn {
     border: none;
     background-color: rgb(254, 239, 35);
-    color: var(--bk-color-dk);
+    color:black;
+    font-size: 25px;
     border-radius: 1rem;
     box-shadow: 5px 10px 18px #0a0909;
     padding: .75rem 1.5rem;
@@ -90,7 +92,7 @@
   }
   
   .storm .label-top input:hover, .storm .label-top select:hover , .storm textarea:hover, .storm input.submitBtn:hover, .radio.storm:hover {
-    background-color: var(--bk-color-accent-dk);
+    background-color: rgb(235, 168, 168);
     color: #fff;
     cursor: auto;
   }
@@ -98,7 +100,7 @@
   .storm .slider:hover {
     cursor: grab;
   }
-  :root {
+  /*:root {
     --min-screen: 320px;
     --max-screen: 1280px;
     --min-font-base: 16px;
@@ -113,7 +115,7 @@
     --box-shadow-dk: 5px 10px 18px #0a0909;
     --box-shadow-dk-left: -13px 4px 24px 7px rgba(0,0,0,0.69);
     --text-shadow: 0px 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
-}
+}*/
 *, *:before, *:after {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
