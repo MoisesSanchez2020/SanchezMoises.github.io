@@ -53,11 +53,11 @@
                 </legend>
                 <label for="name" class="label-top">
                     Full Name*
-                    <input required type="text" name="name" id="name" placeholder="Name" title="Please enter your first and last name"
+                    <input required type="text" name="name" id="name" placeholder="Full Name" title="enter your first and last name"
                         pattern="^[a-zA-ZÀ-ž\-']{2,25}(\s[a-zA-ZÀ-ž\-']{1,25}.\s[a-zA-ZÀ-ž\-']{2,25}|\s[a-zA-ZÀ-ž\-']{2,25})$"
                         autocomplete="name" />
                 </label>
-                <label for="email" class="label-top">Email* <input type="email" id="email" name="email" placeholder="name@example.com"
+                <label for="email" class="label-top">Email* <input type="email" id="email" name="email" placeholder="@example.com"
                         title="Please enter a valid email" autocomplete="email"></label>
                 <label for="phone" class="label-top">
                     Phone Number*
@@ -66,7 +66,7 @@
                 </label>
                 <label for="zip-code" class="label-top">
                     ZIP Code*
-                    <input required type="text" name="zip-code" id="zip-code" placeholder="12345-0123"
+                    <input required type="text" name="zip-code" id="zip-code" placeholder="94402"
                         title="Please enter your zip code or postal code" autocomplete="postal-code" />
                 </label>
             </fieldset>
@@ -78,13 +78,13 @@
                 </legend>
                 <label for="date" class="label-top">
                     Date of Storm*
-                    <input required type="text" name="input" id="date" placeholder="text" title="Please select the date of storm event"
+                    <input required type="date" name="input" id="date" title="select the date of storm event"
                         autocomplete="on" />
                 </label>
                 <label for="storm-type" class="label-top" title="Type your response into the field. ">
                     What are you reporting?
                     <input required type="text" list="storm-choices" name="storm-type" id="storm-type" title="Type your response into the field."
-                        placeholder="double-click for suggestions..." />
+                        placeholder="double-click" />
                     <datalist id="storm-choices">
                         <option value="Blizzard"></option>
                         <option value="Flash Flood"></option>
@@ -98,7 +98,7 @@
 
                 <label class="label-top">Storm Region
                     <select name="subject">
-                        <option value="" selected disabled>Select Region... &dArr;</option>
+                        <option value="" selected disabled>Region</option>
                         <option value="preston">Preston</option>
                         <option value="soda-springs">Soda Springs</option>
                         <option value="fish-haven">Fish Haven</option>
@@ -109,7 +109,7 @@
 
           <!--Second part-->
             <fieldset>
-                <legend>User In-Danger<em> (Choose one)</em></legend>
+                <legend>Are you in Danger<em> (Choose one)</em></legend>
                 <div><label class="radio storm" for="yes">
                         <input type="radio" id="yes" name="danger-level" value="yes" checked>
                         Yes</label>
@@ -126,11 +126,11 @@
 
         <!--Third part-->
             <fieldset>
-                <legend>Storm Severity Rating<em> (adjust slider)</em></legend>
+                <legend>Storm Rate<em> (adjust slider)</em></legend>
                 <label class="label-left" for="rating">Rating (1 to 10):
                     <input class="slider" type="range" id="rating" name="rating" list="tickmarks" min="1" max="10"
                         step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span>
+                    <span id="ratingvalue">10</span>
                 </label>
                 <datalist class="slider" id="tickmarks">
                     <option value="1" label="1"></option>
@@ -146,10 +146,10 @@
                 </datalist>
             </fieldset>
             <fieldset>
-                <legend>Additional Details <em>(optional)</em></legend>
+                <legend>Detail <em>(optional)</em></legend>
                 <div>
                     <label class="label-top" for="textarea">
-                        <textarea name="data" id="textarea" placeholder="Enter any additional details in this area..."
+                        <textarea name="data" id="textarea" placeholder="additional information"
                             rows="4" cols="50"></textarea>
                     </label>
                 </div>
