@@ -13,6 +13,11 @@
     .container-numero{
       display: grid;
     }
+    #header-gallery, h2{
+      font-size: 30px;
+     
+    
+    }
 
     
     
@@ -28,8 +33,24 @@
       .container-abajo clearfix{
         display: grid;
           }
-             
-        
+          /*--storm center--*/
+          .storm{
+            margin: 0 auto;
+            max-width: 700px;
+          }
+            
+         /*-Thank you --*/    
+          main-2{
+            margin-left: 50%;
+            max-width: 100%;
+            height: auto;
+            margin: 30px;
+            
+          }
+          .container form-2, h1{
+            font-size: 35px;
+            
+          }
     
 
 

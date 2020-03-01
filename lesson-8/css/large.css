@@ -116,11 +116,12 @@ article p.article-3 {
 
 
 .container-gallery {
+  margin: 0 auto ;
   max-width: 1000px;
   grid-template-columns: 1fr 1fr 1fr;
 }
- #header-gallery h2{
-  font-size: 30px;
+ #header-gallery, h2{
+  font-size: 40px;
  
 
 }
@@ -137,6 +138,26 @@ figure:hover {
 }
 img[data-src] {
   filter: blur(0.2em);
+  }
+  /*--storm center--*/
+  .storm {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+    
+
+
+
+  /*--thank you --*/
+  main-2{
+    margin-left: 50%;
+    max-width: 100%;
+    height: auto;
+    margin: 30px;
+    
+  }
+  .container form-2, h1{
+    font-size: 40px;
   }
 
 
