@@ -132,7 +132,26 @@
                         step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">10</span>
                 </label>
-                <datalist class="slider" id="tickmarks">
+
+                <!--<label>Storm Rate (1 to 10): <input type="range" id="rating" value="5" min="1" max="10" step="1" list="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">-->
+                    <span id="ratingvalue"></span></label>
+                <datalist class="slider"  id="tickmarks">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+
+
+
+
+                <!--<datalist class="slider" id="tickmarks">
                     <option value="1" label="1"></option>
                     <option value="2" label="2"></option>
                     <option value="3" label="3"></option>
@@ -143,9 +162,16 @@
                     <option value="8" label="8"></option>
                     <option value="9" label="9"></option>
                     <option value="10" label="10"></option>
-                </datalist>
+                </datalist>-->
             </fieldset>
+            <Script>
+                function adjustRating(rating) {
+document.getElementById("ratingvalue").innerHTML = rating;
+}
+            </Script>
+
             <fieldset>
+                
                 <legend>Detail <em>(optional)</em></legend>
                 <div>
                     <label class="label-top" for="textarea">
@@ -154,6 +180,7 @@
                     </label>
                 </div>
             </fieldset>
+
             <input type="submit" name="storm-report" value="Submit Report" class="submitBtn">
         </form>
     </div>
