@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    background-color: #f58b8b;
+}
+main{
+    margin: 10px;
+    background-color: #f58b8b;
+    box-shadow: 0 0 20px black;
+}
+h1{
+  font-family:Times,Cochin, Georgia;
+  color: black;
+  font-size: 3em;
+} 
+h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #3f3f8d;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 100%;
+ 
+}
+img{
+    width: 85%;
+    box-shadow: 0 0 15px black;
+    border-radius:25px;
+}
+P {
+    margin-top: -10PX;
+    color: black;
+    font-family: arial;
+}
+section{
+    margin: 2px;
+    padding-bottom: 10px;
+    border: 3px darkslateblue solid;
+    background-color: #b9b9cc;
+}
+footer{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 25px;
+}
+@media only screen and (min-width:32.5em){
+    .cards{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media only screen and (min-width: 64em){
+    .cards{
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
