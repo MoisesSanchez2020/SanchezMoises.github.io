@@ -1,0 +1,32 @@
+
+{
+
+    "towndata":[
+     {
+         "towm": "preston",
+         "State": "Idaho",
+         "presipitacion": "10%",
+         "Population": "4500",
+         "founded": "1830",
+         "imageurl": "https://en.wikipedia.org/wiki/Preston,_Idaho#/media/File:Franklin_County_Courthouse,_Preston,_Idaho.jpg"
+     },
+     { 
+        "towm": "Soda Springs",
+         "State": "Idaho",
+         "presipitacion": "30%",
+         "Population": "9000",
+         "founded": "1430",
+         "imageurl": "https://en.wikipedia.org/wiki/Soda_Springs,_Idaho#/media/File:Soda_Springs_Ground_Observer_Corps.jpg"
+
+     },
+     {
+        "towm": "Fish haven",
+         "State": "Idaho",
+         "presipitacion": "70%",
+         "Population": "39500",
+         "founded": "1900",
+         "imageurl": "https://en.wikipedia.org/wiki/Bear_Lake_County,_Idaho#/media/File:Bear_Lake_County_Courthouse_Paris_Idaho.jpeg"
+     }
+
+    ]
+}
