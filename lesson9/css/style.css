@@ -9,19 +9,18 @@ main{
     box-shadow: 0 0 20px black;
 }
 h1{
-  font-family:Times,Cochin, Georgia;
+  font-family: Times,Cochin, Georgia;
   color: black;
   font-size: 3em;
 } 
 h2 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family: Times, 'Times New Roman', serif;
     color: #3f3f8d;
 }
 .cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    grid-template-columns: 100%;
     margin: 0 auto;
 }
 img{
@@ -40,8 +39,15 @@ section{
     border: 3px darkslateblue solid;
     background-color: #b9b9cc;
 }
+header{
+    font-family: Times, serif;
+    font-size: 15px;
+    padding: 15px;
+    background-color: rgb(245, 77, 77);
+}
 footer{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Times, serif;
     font-size: 25px;
     padding: 25px;
+    background-color: rgb(245, 77, 77);
 }
