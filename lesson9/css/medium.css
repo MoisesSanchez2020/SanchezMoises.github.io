@@ -52,7 +52,10 @@
             
           }
     
-
+          .contenido {
+            grid-template-columns: auto auto;
+        }
+        
 
 
 }

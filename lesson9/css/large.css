@@ -159,6 +159,13 @@ img[data-src] {
   .container form-2, h1{
     font-size: 40px;
   }
-
+  .contenido{
+    grid-template-columns: auto auto auto;
+  }
+  
+  .cabeza{
+    text-align: center;
+    margin: auto 0;
+  }
 
 }

@@ -1,42 +1,53 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+ const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
-.then(function(response){
-      return response.json();
-})
-.then(function(jsonObject){
-    Console.table(jsonObject); 
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject); 
+    const towns = jsonObject['towns'];
 
-    const townIdaho = jsonObject['townIdaho'];
+    for (var i = 0; i < towns.length; i++) {
+        if (towns[i].name == "Fish Haven" || towns[i].name == "Preston" || towns[i].name == "Soda Springs" ){
+   
 
-for (var i = 0; i < townIdaho.length; i++){
-    var roJos = document.createElement('section');
-    var h2 = document.createElement('h2');
-    var town = document.createElement('h2');
-    var state = document.createElement('p');
-    var presipitacion = document.createElement('p');
-    var population = document.createElement('p');
-    var  image =doucment.createElement('img');
+      var contenido = document.createElement('section');
+      var h2 = document.createElement('h2');
+      //var h4 = document.createElement('h4');
+      var year = document.createElement('p');
+      var population = document.createElement('p');
+      var rainfall = document.createElement('p');
+      var image = document.createElement('img');
+      
 
-    h2.textContent = townIdaho[i].name + '' + townIdaho[i].LastnName;
-    state.textContent = " State name:" + townIdaho[i].state;
-    presipitacion.textContent = "Weather:" + townIdaho[i].presipitacion;
+
+
+
+      h2.textContent = towns[i].name;
+      //h4.textContent = towns[i].motto;
+      year.textContent = "Year Founded: " + towns[i].yearFounded;
+      population.textContent = "Population: " + towns[i].currentPopulation;
+      rainfall.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
+
+      
+ ;
+       image.setAttribute('src', "image/" + towns[i].photo);
+      
+      image.setAttribute('alt', "picture of: " + h2.textContent);
     
-    image.setAttribute('src', townIdaho[i].imageurl);
-    image.setAttribute('alt', "picture of : " + h2.textContent);
-
-    roJos.appendChild(h2);
-    roJos.appendChild(town);
-    roJos.appendChild(state);
-    roJos.appendChild(image);
 
 
-    document.querySelector('div.contenido').appendChild(roJos);
-    
+
+      contenido.appendChild(h2);
+      //contenido.appendChild(h4);
+      contenido.appendChild(year);
+      contenido.appendChild(population);
+      contenido.appendChild(rainfall);
+      contenido.appendChild(image);
+   
+      document.querySelector('div.contenido').appendChild(contenido);
+
+    }
 }
-
-
-
-
-
-});
+  });
