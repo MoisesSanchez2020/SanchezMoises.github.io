@@ -1,3 +1,4 @@
+
 body{
     text-align: center;
     background-color: #f58b8b;
@@ -17,9 +18,11 @@ h2 {
     color: #3f3f8d;
 }
 .cards{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-template-columns: 100%;
- 
+    margin: 0 auto;
 }
 img{
     width: 85%;
@@ -41,14 +44,4 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     padding: 25px;
-}
-@media only screen and (min-width:32.5em){
-    .cards{
-        grid-template-columns: 50% 50%;
-    }
-}
-@media only screen and (min-width: 64em){
-    .cards{
-        grid-template-columns: 25% 25% 25% 25%;
-    }
 }
