@@ -20,7 +20,8 @@
     "motto": "This is Fish Heaven.",
     "yearFounded": 1864,
     "currentPopulation": 501,
-    "averageRainfall": 14.20,
+    "averageRainfall": 14.20,,
+    "imageurl":"https://en.wikipedia.org/wiki/Preston,_Idaho#/media/File:Franklin_County_Courthouse,_Preston,_Idaho.jpg"
     "events" : [
       "April 1: How Big Was That Fish Day",
       "May 15-30: Rush the Creek Days",
@@ -61,6 +62,7 @@
     "yearFounded": 1866,
     "currentPopulation": 5204,
     "averageRainfall": 16.65,
+    "imageurl":"https://en.wikipedia.org/wiki/Preston,_Idaho#/media/File:Franklin_County_Courthouse,_Preston,_Idaho.jpg",
     "events" : [
       "March 29: Work Creek Revival",
       "July 8-12: Napoleon Dynamite Festival",
@@ -74,6 +76,7 @@
     "yearFounded": 1858,
     "currentPopulation": 2985,
     "averageRainfall": 15.75,
+    "imageurl":"https://en.wikipedia.org/wiki/Preston,_Idaho#/media/File:Franklin_County_Courthouse,_Preston,_Idaho.jpg",
     "events" : [
       "February 29: Geyser Song Day",
       "May 1-6: Days of May Celebration",

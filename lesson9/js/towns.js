@@ -1,4 +1,4 @@
- const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+ const requestURL = 'https://moisessanchez2020.github.io/SanchezMoises.github.io/lesson9/js/datatowns.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -6,6 +6,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); 
+
     const towns = jsonObject['towns'];
 
     for (var i = 0; i < towns.length; i++) {
@@ -32,7 +33,7 @@ fetch(requestURL)
 
       
  ;
-       image.setAttribute('src', "image/" + towns[i].photo);
+    image.setAttribute('src', towns[i].imageurl);
       
       image.setAttribute('alt', "picture of: " + h2.textContent);
     
