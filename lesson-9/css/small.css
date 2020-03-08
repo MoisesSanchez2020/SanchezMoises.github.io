@@ -449,5 +449,78 @@ main {
   height: auto;
 }
  
+article{
+  margin: 0 auto ;
+    max-width: 80%;
+  }
+
+  .numero-2 img{
+    margin: auto;
+    max-width: 100%;
+    padding-right: 30px;
+  
+    
+  }
+  .numero-3 img{
+    margin: auto;
+    max-width: 100%;
+    padding-right: 30px;
+    
+   }
+   section .estilo{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify;
+   }
+   section .estilo9{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: justify;
+   }
+   .numero-3 h2{
+    text-align: left;
+    
+   }
+ 
 
 
+
+
+
+
+
+
+
+  /*top: 50%;
+  left: 50;
+  transform:  translate(-50%,-50%);
+  width: 600px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0,0,0,.2);*/
+/*}
+article h2{
+  text-align: left;
+  margin:10px;
+
+}*/
+/*article{
+  
+  top: 50%;
+  left: 50;
+  transform:  translate(-50%,-50%);
+  width: 600px;
+  padding: 30px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0 15px 50px rgba(0,0,0,.2);                                                                                         
+}
+.numero-2{
+  width: 200px;
+  height: 200px;
+  background-image: url('https://www.idahostatejournal.com/hunters-still-furious-after-idaho-fish-and-game-shot-elk/article_33c9df72-1825-5800-a05f-26ff6cd616c1.html');
+}
+*/

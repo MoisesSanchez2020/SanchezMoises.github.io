@@ -19,9 +19,7 @@
     
     }
 
-    
-    
-   
+
     picture img {
         width: 100%;
         transition: filter 0.85s;
@@ -54,9 +52,14 @@
     
           .contenido {
             grid-template-columns: auto auto;
+            
         }
         
+      .estilo9{
+         text-align: center;
+       }
 
+        
 
 }
 
