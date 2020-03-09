@@ -11,6 +11,7 @@
     color: #fff;
     align-content: center;
     max-width: 700px;
+    
   }
   main > * {
     margin: 0 auto;
@@ -26,23 +27,27 @@
     color:black;
     font-size: 30px;
     margin-left: 20px;
+    
   }
   
   .storm fieldset {
     margin: 2rem 0;
-    border: solid 2px yellow;
+    border: solid 2px rgb(240, 240, 221);
     border-radius: 10px;
     padding: .5rem 2%;
+    
   }
   .storm legend {
     margin: 0 1rem;
     padding: 0 .5rem;
+    
   }
   
   .storm .label-top {
     display: block;
     padding-top: 1rem;
     font-size: .8rem;
+    
   }
   
   .storm .label-top input, .storm .label-top select, .storm textarea {
@@ -54,7 +59,8 @@
     padding: .75rem;
     width: 100%;
     max-width: 20rem;
-    background-color:yellow
+    background-color:rgb(247, 247, 240);
+    margin: auto;
   }
   
   .storm .label-top select option {
@@ -86,6 +92,7 @@
     background-color: rgb(235, 168, 168);
     color: black;
     cursor: auto;
+    
   }
   
   .storm .slider:hover {
