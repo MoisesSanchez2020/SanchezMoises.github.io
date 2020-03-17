@@ -175,7 +175,7 @@ img[data-src] {
   
   article {
     margin: 0 auto ;
-    max-width: 80%;
+    width: 80%;
   }
   .numero-2 img{
     margin: auto;
@@ -208,12 +208,13 @@ img[data-src] {
   }
    .numero-3 img{
     margin: auto;
-    max-width: 50%;
+    width: 30%;
   
     float: left;
     padding-right: 30px;
     
    }
+
    section .estilo9{
     margin: auto;
     max-width: 100%;
@@ -234,8 +235,10 @@ img[data-src] {
     margin:10px;
    }
    .numero-3{
-    margin: 30px;
-    padding: 20px;
+    margin: auto;
+    padding: 10px;
+    width: 60%;
+    
   }
 .updatebox{
   width: 130%;
@@ -296,10 +299,26 @@ padding: 20px;
   }
   
  .estilo8 {
-   text-align: left;
+   text-align: justify;
    font-size: 20px;
    letter-spacing: 1.5;
     line-height: 1.5;
+    width: 100%;
+    margin: auto;
+   
+    
  } 
+ main, .updatebox, section{
+   width: 80%;
+   margin: 0 auto;
+   
+ }
+ article{
+width: 70%;
+height: auto;
+background-color: brown;
+margin: auto;
+ }
+
 
 }
