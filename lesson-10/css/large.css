@@ -291,7 +291,7 @@ padding: 20px;
     width: 100%;
   }
   .updatebox p{
-    text-align: lef;
+    text-align: left;
     font-size: 25px;
     letter-spacing: 1.5px;
     line-height: 1.2;
@@ -303,7 +303,7 @@ padding: 20px;
  .estilo8 {
    text-align: justify;
    font-size: 20px;
-   letter-spacing: 1.5;
+   letter-spacing: 1.5px;
     line-height: 1.5;
     width: 100%;
     margin: 10px;
