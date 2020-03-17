@@ -255,7 +255,9 @@ nav, .menu {
   margin: 0;
   padding: 0;
   line-height: 1.3rem;
+  
 }
+
 
 
 
@@ -571,7 +573,7 @@ input[type=number] {
   opacity: .8;
  
   height: auto;
-  width: auto;
+  width: 60%;
 }
 .updatebox h2{
   text-align: center;
@@ -605,4 +607,10 @@ h4 {
 }
 .gridforecast{
   display: none;
+}
+
+main,  section{
+  width: 80%;
+  margin: 0 auto;
+  
 }
