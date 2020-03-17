@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1000px) {
        body{
         background-color: rgb(247, 247, 247);
        
@@ -161,12 +161,18 @@ img[data-src] {
   }
   .contenido{
     grid-template-columns: auto auto auto;
+    width: 80%;
+   
+    margin:0  auto ;
   }
   
   .cabeza{
     text-align: center;
     margin: auto 0;
+
   }
+
+  
   article {
     margin: 0 auto ;
     max-width: 80%;
@@ -251,5 +257,42 @@ padding: 20px;
   font-size: 40px;
   color:rgb(236, 97, 97); ;
   }
+  
+  .estilo , .estilo9  {
+    text-align: center;
+    font-size: 20px;
+  }
+  .updatebox {
+    
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    background: radial-gradient(#eee, rgb(240, 150, 150));
+    border: 1px solid #000;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    padding-bottom: 0rem;
+    box-shadow: 0 0 30px rgb(248, 153, 146);
+    opacity: .8;
+   
+    height: auto;
+ 
+  }
+  .updatebox h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .updatebox p{
+    text-align: lef;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+    font-family: Arial, Helvetica, sans-serif;
+      margin: 10px;
+  }
+  
+  
 
 }
