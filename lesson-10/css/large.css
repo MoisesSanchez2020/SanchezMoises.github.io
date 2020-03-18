@@ -180,7 +180,7 @@ img[data-src] {
   .numero-2 img{
     margin: auto;
     max-width: 40%;
-    border-radius: 50%;
+    border-radius: 5%;
     float: right;
     
   }
@@ -240,10 +240,10 @@ img[data-src] {
     width: 60%;
     
   }
-.updatebox{
+/*.updatebox{
   width: 130%;
 padding: 20px;
-}
+}*/
 .gridforecast {
   display: grid;
   
@@ -267,10 +267,10 @@ padding: 20px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .updatebox {
-    width: 100%;
+  section .updatebox {
+    width: 50%;
     position: absolute;
-    top: 45px;
+    top: 75px;
     left: 15px;
     background: radial-gradient(#eee, rgb(240, 150, 150));
     border: 1px solid #000;
@@ -280,22 +280,22 @@ padding: 20px;
     padding-bottom: 0rem;
     box-shadow: 0 0 30px rgb(248, 153, 146);
     opacity: .8;
-   background-color: rgb(50, 204, 63);
+   
     height: auto;
  
   }
   .updatebox h2{
     text-align: center;
-    font-size: 40px;
+    font-size: 35px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
   }
   .updatebox p{
     text-align: left;
-    font-size: 25px;
+    font-size: 35px;
     letter-spacing: 1.5px;
     line-height: 1.2;
-    
+    word-wrap: break-word;
       margin: 10px;
       width: 100%;
   }
@@ -304,7 +304,9 @@ padding: 20px;
    text-align: justify;
    font-size: 20px;
    letter-spacing: 1.5px;
-    line-height: 1.5;
+    line-height: 1.8;
+    text-indent: 50px;
+    white-space: normal;
     width: 100%;
     margin: 10px;
    padding:  10px;
@@ -315,13 +317,11 @@ padding: 20px;
    margin: 0 auto;
    
  }
- .updatebox{
-   width: 150%;
- }
+ 
  article{
 width: 70%;
 height: auto;
-background-color: rgb(221, 218, 218);
+background-color: rgb(247, 243, 243);
 margin: auto;
  }
 

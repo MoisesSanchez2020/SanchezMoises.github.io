@@ -114,7 +114,8 @@
 .numero-3{
   margin: auto;
   padding: 10px;
-  width: 60%;
+  width:100%;
+  margin: 5px;
   
 }
 main, section{
@@ -153,9 +154,10 @@ article{
   font-size: 20px;
   letter-spacing: 1.5px;
    line-height: 1.5;
+   text-indent: 50px;
    width: 100%;
    margin: auto;
-   background-color: rgb(221, 218, 218);
+   background-color: rgb(241, 234, 234);
    
 
 } 
