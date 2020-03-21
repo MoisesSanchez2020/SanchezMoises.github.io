@@ -29,7 +29,8 @@ header, footer{
 }
 
 .logo {
-  width: 14%;
+  width: 150px;
+  max-width: 100px;
 }
 
 .header-title-text {
@@ -96,7 +97,7 @@ nav, .menu {
 
 #title-header {
   color: yellow;
-  font-size: 25px;
+  font-size: 20px;
   
 }
 
