@@ -324,6 +324,54 @@ height: auto;
 background-color: rgb(247, 243, 243);
 margin: auto;
  }
+ #eventos{
+
+
+   width: 1000px;
+   height: auto;
+   
+ }
+ #eventosbox{
+  display:flex;
+  width: fit-content;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 25px;
+ background-color: rgb(236, 234, 226);
+ border-width: 5px;
+ }
+
+ #once{
+  font-size: 25px;
+   margin: 0 auto;
+   border-style: ;
+   width: 300px;
+   height: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ #trece{
+font-size: 25px;
+padding: 20px;
+  margin: 0 auto;
+
+  width: 300px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ }
+ #doce{
+  font-size: 25px;
+  margin: 0 auto;
+  
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ }
 
 
 }

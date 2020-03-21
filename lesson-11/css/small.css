@@ -619,3 +619,43 @@ main,  section{
   margin: 0 auto;
   
 }
+
+#eventosbox{
+  display:block;
+  width: auto;
+  margin: 0 auto;
+  border-style: solid;
+  border-radius: 25px;
+ background-color: rgb(236, 234, 226);
+ border-width: 5px;
+ }
+
+ #once{
+  font-size: 20px;
+   margin: 0 auto;
+   width:auto;
+   height: auto;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+ }
+ #trece{
+font-size: 20px;
+padding: 10px;
+  margin: 0 auto;
+  width: auto;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ }
+ #doce{
+  font-size: 20px;
+  margin: 0 auto;
+  width: auto;
+  padding: 10px;
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  flex-wrap: wrap;
+ }
