@@ -211,7 +211,7 @@ img[data-src] {
     width: 30%;
   
     float: left;
-    padding-right: 30px;
+    padding-right: 2px;
     
    }
 
@@ -237,7 +237,7 @@ img[data-src] {
    .numero-3{
     margin: auto;
     padding: 10px;
-    width: 60%;
+    width: 70%;
     
   }
 /*.updatebox{
@@ -258,7 +258,7 @@ padding: 20px;
 }
 .fiveDayForcast h3{ 
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   color:rgb(236, 97, 97); ;
   }
   
@@ -312,6 +312,10 @@ padding: 20px;
    padding:  10px;
    
  } 
+ .estilo8 img{
+   padding: 10px;
+  float: left;
+ }
  main,  section{
    width: 80%;
    margin: 0 auto;
@@ -371,7 +375,7 @@ padding: 20px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
- }
+ 
 
 
 }

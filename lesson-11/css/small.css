@@ -471,12 +471,12 @@ article{
   
     
   }
-  .numero-3 img{
+  /*.numero-3 img{
     margin: auto;
     max-width: 100%;
     padding-right: 30px;
     
-   }
+   }*/
    section .estilo{
     letter-spacing: 1px;
     line-height: 1.5;
@@ -622,7 +622,7 @@ main,  section{
 
 #eventosbox{
   display:block;
-  width: auto;
+  max-width: 120%;
   margin: 0 auto;
   border-style: solid;
   border-radius: 25px;
@@ -632,30 +632,33 @@ main,  section{
 
  #once{
   font-size: 20px;
+  padding: 10px;
    margin: 0 auto;
    width:auto;
    height: auto;
-  padding: 10px;
-  text-align: center;
+   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  
  }
  #trece{
-font-size: 20px;
-padding: 10px;
-  margin: 0 auto;
-  width: auto;
-  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+   margin: 0 auto;
+   width:auto;
+   height: auto;
+   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+ 
+ 
  }
  #doce{
   font-size: 20px;
-  margin: 0 auto;
-  width: auto;
   padding: 10px;
-  
+   margin: 0 auto;
+   width:auto;
+   height: auto;
+   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
-  flex-wrap: wrap;
+ 
+ 
  }

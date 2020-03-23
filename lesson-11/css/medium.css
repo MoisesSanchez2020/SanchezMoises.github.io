@@ -108,7 +108,7 @@
 .forecast h3{
   text-align: center;
   color: rgb(228, 70, 64);
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .numero-3{
@@ -161,6 +161,10 @@ article{
    
 
 } 
+.estilo8 img{
+  padding: 10px;
+ float: left;
+}
 
 
 
