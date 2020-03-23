@@ -348,7 +348,7 @@ margin: auto;
  #once{
   font-size: 25px;
    margin: 0 auto;
-   border-style: ;
+  
    width: 300px;
    height: auto;
   padding: 20px;
@@ -365,7 +365,9 @@ padding: 20px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
- }
+
+
+
  #doce{
   font-size: 25px;
   margin: 0 auto;
@@ -376,6 +378,7 @@ padding: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
  
+
 
 
 }

@@ -40,7 +40,7 @@
    icon1.setAttribute('src', imgURL);
    icon1.setAttribute('alt', desc);
    icon1.setAttribute('height', 'auto');
-   icon1.setAttribute('width', '120px');
+   icon1.setAttribute('width', '90px');
             
    divdate.appendChild(divtemp);
    divdate.appendChild(icon1);
