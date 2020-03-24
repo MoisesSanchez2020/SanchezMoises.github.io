@@ -162,10 +162,10 @@ article{
 
 } 
 .estilo8 img{
+  float: left;
+  width: 60%;
   padding: 10px;
- float: left;
 }
-
 
 
 }

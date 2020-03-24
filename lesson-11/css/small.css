@@ -499,6 +499,11 @@ article{
     text-indent: 50px;
     text-align: justify;
   }
+  .estilo8 img{
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
   
 
 
