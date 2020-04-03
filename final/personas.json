@@ -31,9 +31,35 @@
         "photo": "david.jpg",
         "motto": "YOLO",
         "age": 47,
-        "yearsofexperience":"10 years" ,
+        "yearsofexperience":"6 years" ,
         "location": "Yuba River",
         "star": 10,
+        "Recomendations": [
+          "Bill: this is the best coach ever "
+       
+        ]
+      },
+      {
+        "name": "King Richard",
+        "photo": "king.jpg",
+        "motto": "La vida es Hermosa",
+        "age": 57,
+        "yearsofexperience":"9 years" ,
+        "location": "Tahoe River",
+        "star": 6,
+        "Recomendations": [
+          "Bill: this is the best coach ever "
+       
+        ]
+      },
+      {
+        "name": "Salma Hayek",
+        "photo": "salma.jpg",
+        "motto": "Pray for Us",
+        "age": 25,
+        "yearsofexperience":"19 years" ,
+        "location": "Yuba River",
+        "star": 4,
         "Recomendations": [
           "Bill: this is the best coach ever "
        
