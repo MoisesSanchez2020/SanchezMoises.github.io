@@ -5,7 +5,7 @@
         "photo": "frank.jpg",
         "motto": "Get Rich or Die Trying",
         "age": 27,
-        "years of experience":"7 years" ,
+        "yearsofexperience":"7 years" ,
         "location": "Sacramento River",
         "Recomendations": [
           "Mark: Frank is a great coach! "
@@ -16,7 +16,7 @@
         "photo": "zidane.jpg",
         "motto": "Life is a rollorcoaster",
         "age": 35,
-        "years of experience":"3 years" ,
+        "yearsofexperience":"3 years" ,
         "location": "Snake River",
         "Recomendations": [
           " Peter: Pete almost kill my family but he is great"
@@ -28,7 +28,7 @@
         "photo": "david.jpg",
         "motto": "YOLO",
         "age": 47,
-        "years of experience":"10 years" ,
+        "yearsofexperience":"10 years" ,
         "location": "Yuba River",
         "Recomendations": [
           "Bill: this is the best coach ever "
@@ -41,7 +41,7 @@
         "photo": "frodo.jpg",
         "motto": "Get Rich or Die Trying",
         "age": 17,
-        "years of experience":"2 years" ,
+        "yearsofexperience":"2 years" ,
         "location": "Solola River",
         "Recomendations": [
           "Mario: thsi guys shoudl be in school"
