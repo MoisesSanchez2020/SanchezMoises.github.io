@@ -7,6 +7,7 @@
         "age": 27,
         "yearsofexperience":"7 years" ,
         "location": "Sacramento River",
+        "star": 7,
         "Recomendations": [
           "Mark: Frank is a great coach! "
         ]
@@ -18,8 +19,10 @@
         "age": 35,
         "yearsofexperience":"3 years" ,
         "location": "Snake River",
+           "star": 4,
         "Recomendations": [
-          " Peter: Pete almost kill my family but he is great"
+          " Peter: Pete almost kill my family but he is great",
+          
           
         ]
       },
@@ -30,6 +33,7 @@
         "age": 47,
         "yearsofexperience":"10 years" ,
         "location": "Yuba River",
+        "star": 10,
         "Recomendations": [
           "Bill: this is the best coach ever "
        
@@ -43,6 +47,7 @@
         "age": 17,
         "yearsofexperience":"2 years" ,
         "location": "Solola River",
+        "star": 2,
         "Recomendations": [
           "Mario: thsi guys shoudl be in school"
          
