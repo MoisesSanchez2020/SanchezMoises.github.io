@@ -1,0 +1,118 @@
+/*--------medium---*/
+
+/* 35em is also 560px when basefont is 16px */
+@media only screen and (min-width: 35rem) {
+    nav {
+        
+        background-color: #000;
+background: rgba(0,0,0,0.3); /* Old browsers */
+background: -moz-linear-gradient(top,  #030303 0%, #0c0305 44%, #030101 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #030303 0%,#030102 44%,#030101 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #030303 0%,#0c0507 44%,#070101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2105', endColorstr='#aa0000',GradientType=0 ); /* IE6-9 */
+
+    }
+    
+nav{
+    background-color: rgba(0,0,0,0.3);
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  max-width:100%;
+ height: auto;
+
+ 
+}
+
+ 
+
+
+#showcase {
+    min-height: 450px;
+    color: rgb(255, 239, 8);
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+#showcase .bg-image {
+    position: absolute;
+    background: #000 url('https://blog-cdn.checkyeti.com/wp-content/uploads/2019/09/Rafting_general.jpg ') center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 1;
+}
+#showcase .bg-image-2 {
+    position: absolute;
+   background-color: black;
+    /*background: #000 url('https://coloradorafting.net/wp-content/uploads/2015/09/beg_06_1.jpg') center center;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    opacity: 1;
+}
+h4.forecast-item {
+    background-color: rgb(72, 89, 240);
+    border-radius: 8px;
+    
+}
+
+
+   .forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: .10rem;
+    margin: .10em;
+}
+
+
+div .gridforecast{
+margin: auto ;
+width: 30%;
+}
+
+
+.gridforecast {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+border-radius: 8px;
+justify-content: space-between;
+text-align: center;
+align-items: center;
+ margin: auto 0;
+color: white;
+text-shadow: 2px 2px 4px rgb(91, 80, 238);
+}
+
+.forecast h3{
+text-align: center;
+color: rgb(72, 89, 240);
+font-size: 15px;
+}
+
+.forecast-item img {
+    padding: .5rem;
+    width: 90px;
+}
+
+/*gallery*/
+
+.container-gallery {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+} /*end medium*/
+
+ 
