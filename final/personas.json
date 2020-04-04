@@ -8,8 +8,8 @@
         "yearsofexperience":"7 years" ,
         "location": "Sacramento River",
         "star": 7,
-        "Recomendations": [
-          "Mark: Frank is a great coach! "
+        " comments": [
+          "Mark: is a great coach! "
         ]
       },
       {
@@ -20,8 +20,8 @@
         "yearsofexperience":"3 years" ,
         "location": "Snake River",
            "star": 4,
-        "Recomendations": [
-          " Peter: Pete almost kill my family but he is great"
+        " comments": [
+          " Peter: almost kill my family but he is great"
           
           
         ]
@@ -34,7 +34,7 @@
         "yearsofexperience":"6 years" ,
         "location": "Yuba River",
         "star": 10,
-        "Recomendations": [
+        " comments": [
           "Bill: this is the best coach ever "
        
         ]
@@ -47,8 +47,8 @@
         "yearsofexperience":"9 years" ,
         "location": "Tahoe River",
         "star": 6,
-        "Recomendations": [
-          "Bill: this is the best coach ever "
+        " comments": [
+          "Arny: this is the best coach ever "
        
         ]
       },
@@ -60,8 +60,8 @@
         "yearsofexperience":"19 years" ,
         "location": "Yuba River",
         "star": 4,
-        "Recomendations": [
-          "Bill: this is the best coach ever "
+        " comments": [
+          "Bob: this is the best coach ever "
        
         ]
       },
@@ -74,8 +74,8 @@
         "yearsofexperience":"2 years" ,
         "location": "Solola River",
         "star": 2,
-        "Recomendations": [
-          "Mario: thsi guys shoudl be in school"
+        " comments": [
+          "Mario: this guy should be in school"
          
         ]
       }
