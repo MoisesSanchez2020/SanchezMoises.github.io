@@ -27,7 +27,7 @@ nav{
 
 #showcase {
     min-height: 450px;
-    color: rgb(255, 239, 8);
+    color: rgb(255, 24, 8);
     text-align: center;
     font-size: 35px;
     
@@ -114,5 +114,8 @@ font-size: 15px;
 
 
 } /*end medium*/
-
- 
+/* instructor*/
+main, section {
+    width: 90%;
+    margin: 0 auto;
+}

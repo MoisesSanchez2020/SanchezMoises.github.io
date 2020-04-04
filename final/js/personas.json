@@ -1,0 +1,89 @@
+{
+    "staffs": [
+      {
+        "name": "Frank Lampard",
+        "photo": "frank.jpg",
+        "motto": "Get Rich or Die Trying",
+        "age": 27,
+        "yearsofexperience":"7 years" ,
+        "location": "Sacramento River",
+        "star": 7,
+        "rating": "5stars.jpg",
+        "comments": [
+          "Mark: is a great coach! "
+        ]
+      },
+      {
+        "name": "Zinedin Zidane",
+        "photo": "zidane.jpg",
+        "motto": "Life is a rollorcoaster",
+        "age": 35,
+        "yearsofexperience":"3 years" ,
+        "location": "Snake River",
+           "star": 4,
+           "rating": "5stars.jpg",
+        "comments": [
+          " Peter: almost kill my family but he is great"
+          
+          
+        ]
+      },
+      {
+        "name": "David Beckham",
+        "photo": "david.jpg",
+        "motto": "YOLO",
+        "age": 47,
+        "yearsofexperience":"6 years" ,
+        "location": "Yuba River",
+        "star": 10,
+        "rating": "5stars.jpg",
+        "comments": [
+          "Bill: this is the best coach ever "
+       
+        ]
+      },
+      {
+        "name": "King Richard",
+        "photo": "king.jpg",
+        "motto": "La vida es Hermosa",
+        "age": 57,
+        "yearsofexperience":"9 years" ,
+        "location": "Tahoe River",
+        "star": 6,
+        "rating": "5stars.jpg",
+        "comments": [
+          "Arny: this is the best coach ever "
+       
+        ]
+      },
+      {
+        "name": "Salma Hayek",
+        "photo": "salma.jpg",
+        "motto": "Pray for Us",
+        "age": 25,
+        "yearsofexperience":"19 years" ,
+        "location": "Yuba River",
+        "star": 4,
+        "rating": "5stars.jpg",
+        "comments": [
+          "Bob: this is the best coach ever "
+       
+        ]
+      },
+     
+      {
+        "name": "Frodo",
+        "photo": "frodo.jpg",
+        "motto": "Get Rich or Die Trying",
+        "age": 17,
+        "yearsofexperience":"2 years" ,
+        "location": "Solola River",
+        "star": 2,
+        "rating": "5stars.jpg",
+        "comments": [
+          "Mario: this guy should be in school"
+         
+        ]
+      }
+    ]
+  }
