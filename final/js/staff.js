@@ -22,7 +22,7 @@ fetch(requestURL)
       var rainfall = document.createElement('p');
       var h3 = document.createElement('h3');
       var star = document.createElement('p');
-      var rating = document.createElement('p')
+      var rating = document.createElement('img')
       var image = document.createElement('img');
       
 
@@ -36,7 +36,8 @@ fetch(requestURL)
       rainfall.textContent = "Location: " + towns[i].location;
       h3.textContent = " Comments: " + towns[i].comments;
       star.textContent = "Stars: " + towns[i].star  ;
-      rating.textContent = "rating" + towns[i].rating ;
+      
+      rating.setAttribute('src', "images/" + towns[i].rating);
       image.setAttribute('src', "images/" + towns[i].photo);
       image.setAttribute('alt', "picture of: " + h2.textContent);
       
@@ -52,8 +53,8 @@ fetch(requestURL)
       contenido.appendChild(year);
       contenido.appendChild(population);
       contenido.appendChild(rainfall);
-      contenido.appendChild(star);
-      contenido.appendChild(rating);
+      //contenido.appendChild(star);
+     // contenido.appendChild(rating);
       contenido.appendChild(h3);
    
       document.querySelector('div.contenido').appendChild(contenido);

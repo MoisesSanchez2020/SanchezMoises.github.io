@@ -33,14 +33,15 @@
 
     
     .container-gallery {
-        margin: 0 auto;
-        max-width: 1000px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+      margin: 0 auto;
+      max-width: 1000px;
+      grid-template-columns: 1fr 1fr 1fr;
+      box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+  }
 
     #showcase .bg-image {
         position: absolute;
-        background: #000 url('https://blog-cdn.checkyeti.com/wp-content/uploads/2019/09/Rafting_general.jpg ') center center;
+        background: #000 url('https://theknow.denverpost.com/wp-content/uploads/2017/10/SP26OUTARKANSAS-003-MJVM-228.jpg') center center;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -90,6 +91,7 @@
             .fiveDayForcast{
               max-width: 760px;
               margin: 0 auto;
+              margin-bottom: 50px;
             }
 
       /* forma*/
@@ -176,7 +178,15 @@
     grid-template-columns: auto auto auto;
     width: 80%;
     margin: 0 auto;
+    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
 }
+/*-Json instructore
+.section-a1 p {
+  font-size: 25px;
+  color: #FFF;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 2px 2px 3px#111;
+}--*/
 main, section {
   width: 80%;
   margin: 0 auto;

@@ -80,7 +80,12 @@ p {
     background: rgb(68, 66, 66);
   }
   
-
+  .container-gallery {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
 
 
 
@@ -114,12 +119,13 @@ p {
 
 .btn {
     display:inline-block;
-    background: #000;
+    background: rgb(71, 73, 231);
     color: #000;
     text-decoration: none;
     padding: 1em 2em;
-    border: 1px solid rgb(192, 192, 192);
-    margin: .5em 0;
+    border: 1px solid rgb(243, 238, 238);
+    margin: .2em 0;
+    border-radius: 50px;
 }
 
 
@@ -128,8 +134,8 @@ p {
 
 
 .btn:hover {
-    background:rgb(179, 173, 173);
-    color: silver;
+    background:rgb(59, 47, 224);
+    color: rgb(29, 23, 23);
 }
 
 
@@ -207,18 +213,21 @@ p {
     background:rgb(54, 81, 231);
     color:#000;
     padding-bottom: 2em;
-    max-width: 760px;;
+    max-width: 860px;;
+   margin-top: 40px;
    
 }
 #section-a3{
     margin: 0 auto;
-    background:rgb(82, 130, 231);
-    color:#000;
+    background:rgb(150, 182, 253);
+    color:rgb(70, 58, 58);
     padding-bottom: 2em;
-    max-width: 960px;;
+    max-width: 560px;;
    border-radius: 50px;
-   height: 150px;
+   height: 80px;
     margin-top: 50px;
+    margin-bottom: 30px;
+    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
 }
 
 
@@ -231,6 +240,12 @@ p {
    margin-top: 50px;
    margin-bottom: 50px;
   
+}
+#section-a1 h2{
+    font-size: 25px;
+  color:black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 2px 2px 3px rgb(231, 142, 142);
 }
 
 
@@ -247,8 +262,8 @@ p {
 
 #section-b li {
     margin-bottom: 1em;
-    background:rgb(233, 122, 122);
-    color: #000;
+    background:rgb(32, 90, 218);
+    color: rgb(243, 236, 236);
 }
 
 .card-content {
@@ -521,3 +536,16 @@ i[class^=star-]:after{font: normal normal 16px/1 FontAwesome;}
 .star-3:after{content:"\f005\f005\f005\f006\f006";}
 .star-4:after{content:"\f005\f005\f005\f005\f006";}
 .star-5:after{content:"\f005\f005\f005\f005\f005";}
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.checked {
+    color: orange;
+}

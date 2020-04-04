@@ -35,7 +35,7 @@ nav{
 
 #showcase .bg-image {
     position: absolute;
-    background: #000 url('https://blog-cdn.checkyeti.com/wp-content/uploads/2019/09/Rafting_general.jpg ') center center;
+    background: #000 url('https://theknow.denverpost.com/wp-content/uploads/2017/10/SP26OUTARKANSAS-003-MJVM-228.jpg') center center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,7 +109,6 @@ font-size: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
 
 
 
