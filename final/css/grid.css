@@ -210,12 +210,13 @@ p {
 
 #section-a {
     margin: 0 auto;
-    background:rgb(54, 81, 231);
+    background:rgb(250, 226, 219);
     color:#000;
     padding-bottom: 2em;
-    max-width: 860px;;
-   margin-top: 40px;
-   
+    max-width: 1460px;;
+   margin-top: 30px;
+   box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+   font-size: 25px;
 }
 #section-a3{
     margin: 0 auto;
@@ -239,6 +240,7 @@ p {
     max-width: 760px;;
    margin-top: 50px;
    margin-bottom: 50px;
+   font-size: 25px;
   
 }
 #section-a1 h2{
@@ -274,7 +276,8 @@ p {
 #section-c {
     background:rgb(250, 226, 219);
     color:#000;
-    
+    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+    font-size: 25px;
 }
 #section-c2{
     background:rgb(49, 88, 218);
@@ -313,6 +316,15 @@ p {
 }
 .gridforecast{
     display: none;
+}
+
+.content-title{
+    padding: 2px;
+    margin-top: 5px;
+}
+.content-wrap{
+    padding: 2px;
+    margin-top: 5px;
 }
 
 
