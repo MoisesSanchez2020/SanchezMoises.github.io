@@ -21,14 +21,67 @@
          padding: .8rem;
          font-size: 100%;
        }
+       .contenido {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 90%;
+        margin: 0 auto;
+        box-shadow:  2px 2px 4px 4px rgb(9, 11, 15); 
+    }
+
+
+  
      
     #showcase {
         min-height: 450px;
-        color: rgb(255, 239, 8);
+        color: rgb(241, 197, 1);
         text-align: center;
-        font-size: 50px;
-        
+        font-size: 50px;  
     }
+
+    #showcase h1 {
+      padding-top: 100px;
+      padding-bottom: 0;
+      text-shadow:5px 5px 10px rgb(20, 13, 13);
+      
+  }
+
+  
+  #section-d .box {
+    padding: 1em;
+    color:#0a0a0a;
+    /*background:rgb(193, 200, 241);*/
+  margin: 0 auto;
+}
+#section-d .box:first-child {
+    /*background:rgb(250, 226, 219);*/
+    color:#000;
+   
+}
+#section-d .box, p{
+    font-size: 30px;
+}
+
+
+
+    #section-a {
+      margin: 0 auto;
+      background:rgb(250, 226, 219);
+      color:#000;
+      padding-bottom: 2em;
+      /*max-width: 1460px;*/
+      width: 100%;
+     margin-top: 30px;
+     box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+     font-size: 25px;
+  }
+
+  #section-c {
+    background:rgb(250, 226, 219);
+    color:#000;
+    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+    font-size: 25px;
+}
 
 
     
@@ -174,12 +227,7 @@
   /*--instroctor--*/
  
 
-  .contenido {
-    grid-template-columns: auto auto auto;
-    width: 80%;
-    margin: 0 auto;
-    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
-}
+
 /*-Json instructore
 .section-a1 p {
   font-size: 25px;

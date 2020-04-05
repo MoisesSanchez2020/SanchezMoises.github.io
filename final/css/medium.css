@@ -1,7 +1,7 @@
 /*--------medium---*/
 
 /* 35em is also 560px when basefont is 16px */
-@media only screen and (min-width: 35rem) {
+@media only screen and (min-width: 700px) {
     nav {
         
         background-color: #000;
@@ -21,16 +21,30 @@ nav{
 
  
 }
-
+.contenido {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+}
  
 
 
 #showcase {
     min-height: 450px;
-    color: rgb(255, 24, 8);
+    color: rgb(241, 197, 1);
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     
+}
+
+
+#showcase h1 {
+ /* padding-top: 250px;*/
+  padding-bottom: 0;
+  text-shadow:5px 5px 10px rgb(20, 13, 13);
+  
 }
 
 #showcase .bg-image {
@@ -109,6 +123,7 @@ font-size: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 
 
 

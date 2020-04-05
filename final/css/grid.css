@@ -99,24 +99,6 @@ p {
   }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .btn {
     display:inline-block;
     background: rgb(71, 73, 231);
@@ -130,9 +112,6 @@ p {
 
 
 
-
-
-
 .btn:hover {
     background:rgb(59, 47, 224);
     color: rgb(29, 23, 23);
@@ -142,9 +121,17 @@ p {
 
 #showcase {
     min-height: 450px;
-    color: rgb(255, 24, 8);
+    color: rgb(231, 7, 7);
     text-align: center;
     font-size: 15px;
+   
+}
+
+#showcase h1 {
+    padding-top: 300px;
+    padding-bottom: 0;
+    text-shadow:5px 5px 5px #f3c704;
+   
     
 }
 
@@ -199,11 +186,7 @@ p {
 }
 
 
-#showcase h1 {
-    padding-top: 100px;
-    padding-bottom: 0;
-    text-shadow:5px 5px 10px rgb(29, 15, 15);
-}
+
 #showcase .content-wrap {
     padding: 0 1.5em;
 }
@@ -213,10 +196,23 @@ p {
     background:rgb(250, 226, 219);
     color:#000;
     padding-bottom: 2em;
-    max-width: 1460px;;
+    /*max-width: 1460px;*/
+    width: 100%;
    margin-top: 30px;
    box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
-   font-size: 25px;
+   font-size: 15px;
+   text-align: justify;
+    padding: 5px;
+}
+.content-title {
+    padding: 2px;
+    margin-top: 5px;
+    text-align: center;
+}
+.content-wrap{
+    padding: 2px;
+    margin-top: 5px;
+    text-align: center;
 }
 #section-a3{
     margin: 0 auto;
@@ -272,13 +268,15 @@ p {
     padding: 1.5em;
 }
 
-
 #section-c {
     background:rgb(250, 226, 219);
     color:#000;
     box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
-    font-size: 25px;
+    font-size: 15px;
+    text-align: justify;
+    padding: 5px;
 }
+
 #section-c2{
     background:rgb(49, 88, 218);
     color:#000;
@@ -296,20 +294,25 @@ p {
 
 
 #section-d .box {
-    padding: 2em;
+    padding: 1em;
     color:#0a0a0a;
-    background:rgb(193, 200, 241);
+    /*background:rgb(193, 200, 241);*/
+  margin: 0 auto;
 }
 #section-d .box:first-child {
-    background:rgb(233, 122, 122);
+    /*background:rgb(250, 226, 219);*/
     color:#000;
-    
+   
 }
+#section-d .box p{
+    font-family: 30px;
+}
+
 #main-footer {
     padding: 2em;
     background:#070a0c;
     color:#fff;
-   
+    margin: 0 auto;
 }
 #main-footer div{
     text-align: center;
@@ -318,14 +321,8 @@ p {
     display: none;
 }
 
-.content-title{
-    padding: 2px;
-    margin-top: 5px;
-}
-.content-wrap{
-    padding: 2px;
-    margin-top: 5px;
-}
+
+
 
 
 
@@ -512,9 +509,10 @@ fieldset {
 }
 /*--instructor--*/
 .contenido {
-    display: grid;
+    
     grid-gap: 3px;
     grid-template-columns: 100%;
+    /*grid-template-columns: 1fr 1fr;*/
     text-align: center;
     padding: 10px;
 }
@@ -533,13 +531,7 @@ main, #header {
     font-family: 'Squada One', Arial, Helvetica, sans-serif;
     font-size: 0.95em;
 }
-.contenido {
-    display: grid;
-    grid-gap: 3px;
-    grid-template-columns: 100%;
-    text-align: center;
-    padding: 10px;
-}
+
 
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css");
 i[class^=star-]:after{font: normal normal 16px/1 FontAwesome;}
