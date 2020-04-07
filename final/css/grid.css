@@ -121,16 +121,16 @@ p {
 
 #showcase {
     min-height: 450px;
-    color: rgb(231, 7, 7);
+    color: rgb(241, 197, 1);
     text-align: center;
     font-size: 15px;
    
 }
 
 #showcase h1 {
-    padding-top: 300px;
+    padding-top: 250px;
     padding-bottom: 0;
-    text-shadow:5px 5px 5px #f3c704;
+    text-shadow:5px 5px 5px #f31404;
    
     
 }
@@ -304,8 +304,8 @@ p {
     color:#000;
    
 }
-#section-d .box p{
-    font-family: 30px;
+#section-d .box {
+    font-size: 10px;
 }
 
 #main-footer {

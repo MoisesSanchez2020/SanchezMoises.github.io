@@ -35,6 +35,7 @@
     #showcase {
         min-height: 450px;
         color: rgb(241, 197, 1);
+        text-shadow:5px 5px 10px rgb(179, 5, 5);
         text-align: center;
         font-size: 50px;  
     }
@@ -42,7 +43,7 @@
     #showcase h1 {
       padding-top: 100px;
       padding-bottom: 0;
-      text-shadow:5px 5px 10px rgb(20, 13, 13);
+     
       
   }
 
@@ -59,7 +60,7 @@
    
 }
 #section-d .box, p{
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
