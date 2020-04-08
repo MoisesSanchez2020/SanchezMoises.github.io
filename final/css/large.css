@@ -10,6 +10,21 @@
          
          
        }
+       .logo {
+        width: 200px;
+        max-width: 200px;
+        float: left;
+        height: 150px;
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns:1fr repeat(2, minmax(auto, 25em)) 1fr;
+  }
+  .box-2{
+    width: auto;
+}
+
        .menu li {
          display: block;
         float:left;
@@ -28,22 +43,24 @@
         margin: 0 auto;
         box-shadow:  2px 2px 4px 4px rgb(9, 11, 15); 
     }
-
-
+    iframe{
+      width: 50%;
+  }
   
-     
+   
     #showcase {
-        min-height: 450px;
-        color: rgb(241, 197, 1);
-        text-shadow:5px 5px 10px rgb(179, 5, 5);
-        text-align: center;
-        font-size: 50px;  
-    }
-
-    #showcase h1 {
-      padding-top: 100px;
-      padding-bottom: 0;
+      min-height: 450px;
+      color: rgb(241, 197, 1);
+      text-align: center;
+      font-size: 35px;
      
+  }
+  
+  #showcase h1 {
+      padding-top: 180px;
+      padding-bottom: 0;
+      text-shadow:5px 5px 5px #f31404;
+    
       
   }
 

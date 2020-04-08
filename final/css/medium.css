@@ -13,40 +13,68 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc2105', end
 
     }
     
-nav{
+  nav {
     background-color: rgba(0,0,0,0.3);
     font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   max-width:100%;
  height: auto;
 
- 
 }
+
+.grid {
+    display:grid;
+    grid-template-columns:1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+
+#section-a .content-text {
+    columns: 2;
+    column-gap: 2em;
+}
+
+#section-a .content-text p {
+    padding-top: 0;
+}
+
+.content-wrap,
+#section-b ul {
+    grid-column: 2/4;
+}
+
+.box, #main-footer div {
+    grid-column:span 2;
+}
+
+#section-b ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-b li {
+    width: 31%;
+}
+
+
+
+
 .contenido {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 90%;
     margin: 0 auto;
     box-shadow:  2px 2px 4px 4px rgb(9, 11, 15);
+
 }
- 
 
-
-#showcase {
+/*#showcase {
     min-height: 450px;
     color: rgb(241, 197, 1);
    
     text-align: center;
     font-size: 35px;
     
-}
+}*/
 
-
-#showcase h1 {
- /* padding-top: 250px;*/
-  padding-bottom: 0;
- 
-  
-}
 
 #showcase .bg-image {
     position: absolute;
@@ -92,6 +120,9 @@ div .gridforecast{
 margin: auto ;
 width: 30%;
 }
+iframe{
+    width: 50%;
+}
 
 
 .gridforecast {
@@ -125,12 +156,21 @@ font-size: 15px;
     grid-template-columns: 1fr 1fr;
 }
 
+#main-footer {
+    padding: 2em;
+    background:#070a0c;
+    color:#fff;
+    margin: 0 auto;
+}
+#main-footer div{
+    text-align: center;
+}
 
 
-
-} /*end medium*/
+ /*end medium*/
 /* instructor*/
 main, section {
     width: 90%;
     margin: 0 auto;
+}
 }

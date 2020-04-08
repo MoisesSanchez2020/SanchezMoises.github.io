@@ -8,6 +8,19 @@ body {
     line-height: 1.5;
     text-align: center;
 }
+
+    #section-d .grid-2{
+        display: none;
+    }
+  
+
+
+.logo {
+    width: 200px;
+    max-width: 65px;
+    float: right;
+    height: 50px;
+}
 img {
     display:block;
     width: 100%;
@@ -90,6 +103,23 @@ p {
 
 
 
+#showcase {
+    min-height: 450px;
+    color: rgb(241, 197, 1);
+    text-align: center;
+    font-size: 15px;
+   
+}
+
+#showcase h1 {
+    padding-top: 250px;
+    padding-bottom: 0;
+    text-shadow:5px 5px 5px #f31404;
+  
+    
+}
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
@@ -119,21 +149,7 @@ p {
 
 
 
-#showcase {
-    min-height: 450px;
-    color: rgb(241, 197, 1);
-    text-align: center;
-    font-size: 15px;
-   
-}
 
-#showcase h1 {
-    padding-top: 250px;
-    padding-bottom: 0;
-    text-shadow:5px 5px 5px #f31404;
-   
-    
-}
 
 #showcase .bg-image {
     position: absolute;
@@ -308,61 +324,20 @@ p {
     font-size: 10px;
 }
 
-#main-footer {
-    padding: 2em;
-    background:#070a0c;
-    color:#fff;
-    margin: 0 auto;
-}
-#main-footer div{
-    text-align: center;
-}
-.gridforecast{
+
+.gridforecast {
     display: none;
 }
 
-
-
-
+iframe{
+    width: 100%;
+}
 
 
 /*Media Queries */
 
-@media(min-width: 700px) {
-    .grid {
-        display:grid;
-        grid-template-columns:1fr repeat(2, minmax(auto, 25em)) 1fr;
-    }
-
-    #section-a .content-text {
-        columns: 2;
-        column-gap: 2em;
-    }
-
-    #section-a .content-text p {
-        padding-top: 0;
-    }
-
-    .content-wrap,
-    #section-b ul {
-        grid-column: 2/4;
-    }
-
-    .box, #main-footer div {
-        grid-column:span 2;
-    }
-
-    #section-b ul {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    #section-b li {
-        width: 31%;
-    }
 
    
-}
 /* form*/
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
 /* forma2 * {
@@ -553,3 +528,14 @@ i[class^=star-]:after{font: normal normal 16px/1 FontAwesome;}
 .checked {
     color: orange;
 }
+#main-footer {
+    padding: 2em;
+    background:#070a0c;
+    color:#fff;
+    margin: 0 auto;
+}
+
+
+/*#main-footer div{
+    text-align: center;
+}*/
