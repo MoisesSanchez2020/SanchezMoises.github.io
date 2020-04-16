@@ -1,0 +1,150 @@
+/*custom classes and id's*/
+.custom-gradient{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#009ec3+13,00b7ea+60,00b7ea+60,00b7ea+71,00b7ea+75,00b7ea+82 */
+background: #ff5252; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #ff5252 13%, #ff5252 60%, #ff5252 60%,  #ff5252 71%, #ff5252 75%, #ff5252 82%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #ff5252 13%, #ff5252 60%, #ff5252 60%,  #ff5252 71%, #ff5252 75%, #ff5252 82%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #ff5252 13%,#ff5252 60%,#ff5252 60%,#ff5252 71%,#ff5252 75%,#ff5252 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009ec3', endColorstr='#00b7ea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.custom-gradient-2{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3f4c6b+17,3f4c6b+100;Blue+Grey+Flat */
+background: #396fee; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #396fee 17%, #396fee 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #396fee 17%,#396fee 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #395fb6 17%,#275fec 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+body{
+    font-family: 'Baloo Thambi', cursive;
+    
+
+}
+
+
+/*start styles for the navbar*/
+
+.navbar{
+    margin-bottom: -20px;
+}
+
+
+/*start styles for jumbotron*/
+
+.jumbotron{
+background: 
+    linear-gradient(
+        #d38080, 
+      rgba(0, 150, 255, 0.55)    )
+    ,url('cover-frontcopy.jpg');
+    
+background-size:cover;
+background-attachment: fixed;
+
+
+text-align: center;
+margin-bottom: 0;
+color:white;
+padding: 10%;    
+}
+
+/*styles for form div*/
+.form{
+    text-align:center;
+    color:white;
+    padding:1%;
+    border:none;   
+} 
+
+a {
+    color: #e3ebf3;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #e3ebf3;
+    
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+/*about*/
+
+.about{
+   
+    padding:2% 2% 2% 2%;
+   }
+
+.chapters{
+    margin: 2%;
+    background-color:#ff5252;
+    padding: 20%;
+    height: 250px;
+   
+    
+
+    
+}
+
+
+.chapters custom-gradient-2 h1{
+    color: white;
+}
+
+.testify{
+    text-align: center;
+    padding:2%;
+    background-color:red;
+
+}
+
+.impactText{
+     text-align:center;
+    color:white;
+    text-shadow: 1px 1px #00B7EA;
+}
+
+.img-circle{
+    border: 5px solid rgb(22, 152, 240);
+}
+
+.footerContainer {
+  background-color: #efeff5;
+  width: 100%;
+  text-align: center;
+  padding:1%;
+  color:white;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .lead {
+    font-size: 25px;
+  }
+  
+}
+
+/* cover.html */
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,900;1,500&display=swap');
+
+
+body {
+  font-family: "Muli";
+}

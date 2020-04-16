@@ -1,0 +1,142 @@
+body {
+    background: #ff5252;
+  }
+  
+  i {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+    background: #525252;/*024959-0B7387*/
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 3px 3px #421;
+    box-shadow: 2px 2px 5px rgba(100,0,0,0.4);
+    
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    padding-top: 15px;
+  }
+  
+  .ir-arriba{
+    display:none;
+  }
+  
+  .contenedor, header {
+    width: 80%;
+    margin: 2em auto;  
+  }
+  
+  header h1, div h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 3.5em;
+    text-align: center;
+    color: #f1f1f1;
+    text-shadow: 2px 3px 3px #ff5252, 3px 1px 2px #953, 3px 3px 1px #323232;
+  }
+
+  
+  .contenedor {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #efefef;
+    margin-bottom: 10em;
+  }
+  
+  .contenedor article {
+      margin: 0 auto;
+    margin-bottom: 1em;
+    font-size: 1.79em;
+    height: 800px;
+    width: 750px;
+  }
+ #2, #3, article #4, article #5, article #6, article #7, article #8 {
+    margin: 0 auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;;
+  font-size: 1.79em;
+  height: 800px;
+  width: 750px;
+}
+
+
+
+.next {
+    color: rgb(240, 233, 233);
+   background-color: black;
+   margin: 100px;
+   position:absolute; 
+   bottom:0; 
+   width:100%; 
+   height:100px;
+}
+
+  a:hover {
+    
+    color: rgb(240, 233, 233);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  next*/
+  /*.controls {
+    grid-area: controls;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #111;
+  }
+  
+    .chapter-selector {
+      flex: 0 0 auto;
+    }
+      &:after {
+        content: "|";
+        padding-left: 10px;
+        color: #262626;
+      }
+
+      &:hover {
+        color: #999;
+        cursor: pointer;
+
+        &:after {
+          color: #555;
+        }
+      }
+    }
+
+    ul.pagination {
+      display: flex;
+
+      li {
+        padding: 0 10px;
+        transition: color 0.125s;
+
+        &:last-child {
+          padding-right: 0;
+        }
+
+        &:hover {
+          color: #999;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}*/

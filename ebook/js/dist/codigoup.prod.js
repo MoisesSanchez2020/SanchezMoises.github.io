@@ -1,0 +1,1 @@
+"use strict";$(document).ready(function(){$(".ir-arriba").click(function(){return $("body, html").animate({scrollTop:"0px"},700),!1}),$(window).scroll(function(){200<$(this).scrollTop()?$(".ir-arriba").slideDown(300):$(".ir-arriba").slideUp(300)})});
