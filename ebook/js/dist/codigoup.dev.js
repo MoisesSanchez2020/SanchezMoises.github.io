@@ -5,7 +5,7 @@ $(document).ready(function () {
   $('.ir-arriba').click(function () {
     $('body, html').animate({
       scrollTop: '0px'
-    }, 700);
+    }, 1000);
     return false;
   }); //Condicional para mostrar o esconder el boton ir-arriba cuando el usuario haga scroll
 
@@ -14,7 +14,7 @@ $(document).ready(function () {
     if ($(this).scrollTop() > 200) {
       $('.ir-arriba').slideDown(300);
     } else {
-      $('.ir-arriba').slideUp(300);
+      $('.ir-arriba').slideUp(3000);
     }
   });
 });

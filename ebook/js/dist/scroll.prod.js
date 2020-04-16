@@ -1,0 +1,1 @@
+"use strict";$(window).scroll(function(){100<$(window).scrollTop()?$(".bg").stop().animate({opacity:.5},200):$(".bg").stop().animate({opacity:0},200)}),$(".scroll").on("click",function(o){o.preventDefault(),$("html, body").animate({scrollTop:$(this.hash).offset().top},3500)});

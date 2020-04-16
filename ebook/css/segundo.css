@@ -19,6 +19,10 @@ body {
     -webkit-box-sizing: border-box;
     padding-top: 15px;
   }*/
+
+  #bottom{
+    float: right;
+  }
   
   .ir-arriba{
     display:none;
