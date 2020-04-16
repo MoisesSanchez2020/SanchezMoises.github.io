@@ -2,13 +2,13 @@ body {
     background: #ff5252;
   }
   
-  i {
+  /*i {
     position: fixed;
     bottom: 20px;
     right: 20px;
     
     background: #525252;/*024959-0B7387*/
-    width: 50px;
+    /*width: 50px;
     height: 50px;
     color: white;
     text-align: center;
@@ -18,7 +18,7 @@ body {
     cursor: pointer;
     -webkit-box-sizing: border-box;
     padding-top: 15px;
-  }
+  }*/
   
   .ir-arriba{
     display:none;
