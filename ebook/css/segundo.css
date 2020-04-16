@@ -81,7 +81,11 @@ body {
     color: rgb(240, 233, 233);
   }
 
-
+  a {
+    color: #e7ebf0;
+    text-decoration: none;
+    background-color: transparent;
+}
 
 
 
