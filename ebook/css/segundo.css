@@ -22,6 +22,7 @@ body {
 
   #bottom{
     float: right;
+    display: inline-flex;
   }
   
   .ir-arriba{
