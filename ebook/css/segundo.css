@@ -57,9 +57,12 @@ body {
     font-size: 1.79em;
     height: 800px;
     width: 750px;
+    padding: 20px;
+    
   }
  #2, #3, article #4, article #5, article #6, article #7, article #8 {
     margin: 0 auto;
+    padding: 5px;
     padding-top: 1em;
     padding-bottom: 1em;
   margin-bottom: 1em;
@@ -91,9 +94,6 @@ body {
     text-decoration: none;
     background-color: transparent;
 }
-
-
-
 
 
 
