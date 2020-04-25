@@ -22,7 +22,6 @@ body {
       
     
 
-
 /* first part of the code */
 
 header {
@@ -46,7 +45,14 @@ header {
     padding: 0; 
 }
 
-a {
+nav a:active {
+  color: #DEB887; 
+}
+nav a:hover {
+  color: white;
+  text-decoration: underline;
+ }
+ a {
   color: #DEB887;
   text-decoration: none;
  }
@@ -55,14 +61,6 @@ a {
 }
   a :hover {
     text-decoration: underline;
- }
-
-nav a:active {
-  color: #DEB887; 
-}
-nav a:hover {
-  color: white;
-  text-decoration: underline;
  }
  /* End of first part */
 
@@ -101,18 +99,11 @@ article {
     margin-right: auto;
     margin-left: auto; 
   }
-    /*@media (min-width: 600px) {
+   
       img {
         width: 50%;
        } 
-      }
-    @media (max-width: 599px) {
-      img {
-        width: 100%;
-       } 
-      }*/
-
-
+      
 
 /* end of the second part */
 
@@ -139,8 +130,20 @@ article {
 
 /* end code*/
 
+/*queries*/
+@media (max-width: 590px) {
+  img {
+    width: 100%;
+   } 
+   main {
+    width: 100%;
+   } 
+   header {
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+  } 
 
 
-
-
-
+  }
