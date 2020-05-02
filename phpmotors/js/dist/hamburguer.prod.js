@@ -1,0 +1,1 @@
+"use strict";var hambutton=document.querySelector(".ham");function toggleMenu(){document.querySelector(".navigation").classList.toggle("responsive")}hambutton.addEventListener("click",toggleMenu,!1);
