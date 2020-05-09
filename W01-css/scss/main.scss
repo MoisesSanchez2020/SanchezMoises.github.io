@@ -1,0 +1,197 @@
+//variables
+$color-ligthblue:#6495ED;
+$color-amarilloso: #FAEBD7;
+$color-white:#fafcfb;
+$color-black: #070808;
+$color-lightGray:#d3d3d3;
+$color-gray:#808080;
+
+/* Using SCSS variables to store breakpoints */
+$breakpoint-tablet: 600px;
+
+//@mixins
+@mixin square-img($size){
+  width: $size;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Lora");
+
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color:$color-amarilloso;
+    margin: 0;
+    height: 100%; 
+  }
+  
+  main {
+    float: left; 
+  }
+   
+      h1, h2 {
+        font-family: 'Lora', serif;
+     }
+     hr {
+       @include square-img(95%);
+        display: block;
+        margin-right: auto;
+        margin-left: auto; 
+    }
+      
+    
+
+/* first part of the code */
+//nesting
+header {
+  float: left;
+  background-color: $color-ligthblue ;
+  color: $color-amarilloso;
+  text-align: right;
+  margin: 0;
+  padding: 5px; 
+  > a {
+    text-decoration: none;
+    color: $color-amarilloso;
+    > ul {
+        list-style: none;
+        padding: 0; 
+       }
+      > h1{
+        margin-bottom: 0;   
+    }
+  }  
+ }
+
+
+ 
+
+
+//nesting
+nav a:active {
+    color: $color-amarilloso; 
+    > a:hover {
+     color: $color-white;
+     text-decoration: underline;
+ }
+}
+
+
+
+ a {
+  color: $color-amarilloso;
+  text-decoration: none;
+ }
+
+
+ 
+ /* End of first part */
+
+
+
+/* second part of the */
+article {
+    @include square-img(85%);
+    padding: 10px;
+    margin: 25px auto;
+    box-shadow: 3px 3px $color-lightGray;
+    background-color:$color-white;
+   }
+  
+
+
+    article ul li, article h1 {
+      padding: 8px; 
+  }
+    article h2 {
+      margin-top: 0;
+   }
+      article h2 a, article h2 a:visited {
+        color: $color-black;
+        text-decoration: none; 
+      }
+
+  
+   
+//nesting & mixins
+@mixin articles {
+  @include square-img(85%);
+  padding: 10px;
+  margin: 25px auto;
+  box-shadow: 3px 3px #d3d3d3;
+  background-color: #fafcfb;
+  h2{
+    color: #6495ED;
+  text-decoration: underline; 
+  }
+
+}
+
+
+
+
+//nesting
+article h2 a:hover {
+    color: $color-ligthblue;
+    text-decoration: underline; 
+    > a {
+      color: $color-ligthblue;
+      text-decoration: none; 
+  }
+}
+
+//mixing
+img {
+  display: block;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto; 
+  @include square-img(50%);
+}
+  
+
+/* end of the second part */
+
+/*  last part code */
+
+
+//mixin
+
+@mixin reset-list {
+  margin-top: 20px;
+  margin-bottom: 2px;
+  color: $color-gray; 
+}
+//nesting & mixins
+@mixin horizontal-list {
+  @include reset-list;
+   .post-date {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    .post-content {
+    margin-top: 0;
+    margin-bottom: 20px;
+    @include square-img(90%);
+    }
+  }
+
+}
+
+
+/* end code*/
+
+//nesting & mixins
+@media (max-width: $breakpoint-tablet) {
+    img {
+      @include square-img(100%);
+       } 
+       main {
+        @include square-img(100%);
+       } 
+       header {
+        display: block;
+        margin-right: auto;
+        margin-left: auto; 
+        @include square-img(100%);
+      } 
+}

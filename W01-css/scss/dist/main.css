@@ -4,19 +4,23 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   background-color: #FAEBD7;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+}
 
 main {
-  float: left; }
+  float: left;
+}
 
 h1, h2 {
-  font-family: 'Lora', serif; }
+  font-family: 'Lora', serif;
+}
 
 hr {
   width: 95%;
   display: block;
   margin-right: auto;
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 /* first part of the code */
 header {
@@ -25,25 +29,36 @@ header {
   color: #FAEBD7;
   text-align: right;
   margin: 0;
-  padding: 5px; }
-  header > a {
-    text-decoration: none;
-    color: #FAEBD7; }
-    header > a > ul {
-      list-style: none;
-      padding: 0; }
-    header > a > h1 {
-      margin-bottom: 0; }
+  padding: 5px;
+}
+
+header > a {
+  text-decoration: none;
+  color: #FAEBD7;
+}
+
+header > a > ul {
+  list-style: none;
+  padding: 0;
+}
+
+header > a > h1 {
+  margin-bottom: 0;
+}
 
 nav a:active {
-  color: #FAEBD7; }
-  nav a:active > a:hover {
-    color: #fafcfb;
-    text-decoration: underline; }
+  color: #FAEBD7;
+}
+
+nav a:active > a:hover {
+  color: #fafcfb;
+  text-decoration: underline;
+}
 
 a {
   color: #FAEBD7;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 /* End of first part */
 /* second part of the */
@@ -52,46 +67,54 @@ article {
   padding: 10px;
   margin: 25px auto;
   box-shadow: 3px 3px #d3d3d3;
-  background-color: #fafcfb; }
+  background-color: #fafcfb;
+}
 
 article ul li, article h1 {
-  padding: 8px; }
+  padding: 8px;
+}
 
 article h2 {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 article h2 a, article h2 a:visited {
   color: #070808;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 article h2 a:hover {
   color: #6495ED;
-  text-decoration: underline; }
-  article h2 a:hover > a {
-    color: #6495ED;
-    text-decoration: none; }
+  text-decoration: underline;
+}
+
+article h2 a:hover > a {
+  color: #6495ED;
+  text-decoration: none;
+}
 
 img {
   display: block;
   margin-top: 50px;
   margin-right: auto;
   margin-left: auto;
-  width: 50%; }
+  width: 50%;
+}
 
 /* end of the second part */
 /*  last part code */
 /* end code*/
 @media (max-width: 600px) {
   img {
-    width: 100%; }
-
+    width: 100%;
+  }
   main {
-    width: 100%; }
-
+    width: 100%;
+  }
   header {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 100%; } }
-
-/*# sourceMappingURL=small.css.map */
+    width: 100%;
+  }
+}
